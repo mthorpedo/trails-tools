@@ -1,0 +1,1234 @@
+[
+  {
+    "name": "Defense 1",
+    "type": 1,
+    "elemental": "earth",
+    "cost": {
+      "earth": 1,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "DEF+3%/STR-1%",
+    "level": 1
+  },
+  {
+    "name": "Defense 2",
+    "type": 1,
+    "elemental": "earth",
+    "cost": {
+      "earth": 3,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "DEF+6%/STR-2%",
+    "level": 1
+  },
+  {
+    "name": "Defense 3",
+    "type": 1,
+    "elemental": "earth",
+    "cost": {
+      "earth": 5,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "DEF+9%/STR-3%",
+    "level": 1
+  },
+  {
+    "name": "Poison",
+    "type": 2,
+    "elemental": "earth",
+    "cost": {
+      "earth": 3,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "Chance to poison enemy +10%.",
+    "level": 1
+  },
+  {
+    "name": "Petrify",
+    "type": 2,
+    "elemental": "earth",
+    "cost": {
+      "earth": 5,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "Chance to petrify enemy +10%.",
+    "level": 1
+  },
+  {
+    "name": "Septium Vein",
+    "type": 3,
+    "elemental": "earth",
+    "cost": {
+      "earth": 3,
+      "water": 2,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "Increases all types of sepith dropped by enemies by 1-2.",
+    "level": 1
+  },
+  {
+    "name": "Ingenuity",
+    "type": 4,
+    "elemental": "earth",
+    "cost": {
+      "earth": 3,
+      "water": 2,
+      "fire": 0,
+      "wind": 0,
+      "time": 1,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "EP slowly recovers by walking on the field.",
+    "level": 1
+  },
+  {
+    "name": "Capricorn Gem",
+    "type": 5,
+    "elemental": "earth",
+    "cost": {
+      "earth": 5,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "Effectiveness of HP/EP recovery items is multiplied by 2.",
+    "level": 1
+  },
+  {
+    "name": "Aries Gem",
+    "type": 6,
+    "elemental": "earth",
+    "cost": {
+      "earth": 5,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "STR+6%/DEF+6%",
+    "level": 1
+  },
+  {
+    "name": "Mute",
+    "type": 2,
+    "elemental": "water",
+    "cost": {
+      "earth": 0,
+      "water": 3,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "Chance to mute enemy +10%.",
+    "level": 1
+  },
+  {
+    "name": "Freeze",
+    "type": 2,
+    "elemental": "water",
+    "cost": {
+      "earth": 0,
+      "water": 5,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "Chance to freeze enemy +10%.",
+    "level": 1
+  },
+  {
+    "name": "HP 1",
+    "type": 7,
+    "elemental": "water",
+    "cost": {
+      "earth": 0,
+      "water": 1,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "Max HP+5%",
+    "level": 1
+  },
+  {
+    "name": "HP 2",
+    "type": 7,
+    "elemental": "water",
+    "cost": {
+      "earth": 0,
+      "water": 3,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "Max HP+10%",
+    "level": 1
+  },
+  {
+    "name": "HP 3",
+    "type": 7,
+    "elemental": "water",
+    "cost": {
+      "earth": 0,
+      "water": 5,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "Max HP+15%",
+    "level": 1
+  },
+  {
+    "name": "Shield 1",
+    "type": 8,
+    "elemental": "water",
+    "cost": {
+      "earth": 0,
+      "water": 1,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "ADF+3%/ATS-1%",
+    "level": 1
+  },
+  {
+    "name": "Shield 2",
+    "type": 8,
+    "elemental": "water",
+    "cost": {
+      "earth": 0,
+      "water": 3,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "ADF+6%/ATS-2%",
+    "level": 1
+  },
+  {
+    "name": "Shield 3",
+    "type": 8,
+    "elemental": "water",
+    "cost": {
+      "earth": 0,
+      "water": 5,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "ADF+9%/ATS-3%",
+    "level": 1
+  },
+  {
+    "name": "Heal",
+    "type": 9,
+    "elemental": "water",
+    "cost": {
+      "earth": 0,
+      "water": 3,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 2
+    },
+    "effect": "HP slowly recovers by walking on the field.",
+    "level": 1
+  },
+  {
+    "name": "Effort",
+    "type": 10,
+    "elemental": "water",
+    "cost": {
+      "earth": 2,
+      "water": 3,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "Increases chance to cook a supreme dish.",
+    "level": 1
+  },
+  {
+    "name": "Aquarius Gem",
+    "type": 11,
+    "elemental": "water",
+    "cost": {
+      "earth": 0,
+      "water": 5,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "Effectiveness of HP recovery arts is multiplied by 1.5.",
+    "level": 1
+  },
+  {
+    "name": "Cancer Gem",
+    "type": 12,
+    "elemental": "water",
+    "cost": {
+      "earth": 0,
+      "water": 5,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "ATS+6%/ADF+6%",
+    "level": 1
+  },
+  {
+    "name": "Seal",
+    "type": 2,
+    "elemental": "fire",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 3,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "Chance to seal enemy +10%.",
+    "level": 1
+  },
+  {
+    "name": "Strike",
+    "type": 2,
+    "elemental": "fire",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 3,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "Chance to critically strike +10%.",
+    "level": 1
+  },
+  {
+    "name": "Burn",
+    "type": 2,
+    "elemental": "fire",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 5,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "Chance to burn enemy +10%.",
+    "level": 1
+  },
+  {
+    "name": "Attack 1",
+    "type": 13,
+    "elemental": "fire",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 1,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "STR+3%/DEF-1%",
+    "level": 1
+  },
+  {
+    "name": "Attack 2",
+    "type": 13,
+    "elemental": "fire",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 3,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "STR+6%/DEF-2%",
+    "level": 1
+  },
+  {
+    "name": "Attack 3",
+    "type": 13,
+    "elemental": "fire",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 5,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "STR+9%/DEF-3%",
+    "level": 1
+  },
+  {
+    "name": "Invigorate",
+    "type": 14,
+    "elemental": "fire",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 3,
+      "wind": 2,
+      "time": 0,
+      "space": 1,
+      "mirage": 0
+    },
+    "effect": "Gain CP by attacking enemies on the field.",
+    "level": 1
+  },
+  {
+    "name": "Leo Gem",
+    "type": 15,
+    "elemental": "fire",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 5,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "Gain 10 CP when finishing off enemies.",
+    "level": 1
+  },
+  {
+    "name": "Scorpio Gem",
+    "type": 16,
+    "elemental": "fire",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 5,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "Chance to critically strike +20%/Chance to poison +20%.",
+    "level": 1
+  },
+  {
+    "name": "Blind",
+    "type": 2,
+    "elemental": "wind",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 3,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "Chance to blind enemy +10%.",
+    "level": 1
+  },
+  {
+    "name": "Sleep",
+    "type": 2,
+    "elemental": "wind",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 5,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "Chance to put enemy to sleep +10%.",
+    "level": 1
+  },
+  {
+    "name": "Prankster",
+    "type": 10,
+    "elemental": "wind",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 3,
+      "time": 0,
+      "space": 0,
+      "mirage": 2
+    },
+    "effect": "Increases chance to cook a peculiar dish.",
+    "level": 1
+  },
+  {
+    "name": "Evade 1",
+    "type": 17,
+    "elemental": "wind",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 1,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "EVA+5%",
+    "level": 1
+  },
+  {
+    "name": "Evade 2",
+    "type": 17,
+    "elemental": "wind",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 3,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "EVA+10%",
+    "level": 1
+  },
+  {
+    "name": "Evade 3",
+    "type": 17,
+    "elemental": "wind",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 5,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "EVA+15%",
+    "level": 1
+  },
+  {
+    "name": "Move 1",
+    "type": 18,
+    "elemental": "wind",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 1,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "MOV+1",
+    "level": 1
+  },
+  {
+    "name": "Move 2",
+    "type": 18,
+    "elemental": "wind",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 3,
+      "time": 0,
+      "space": 2,
+      "mirage": 0
+    },
+    "effect": "MOV+2",
+    "level": 1
+  },
+  {
+    "name": "Move 3",
+    "type": 18,
+    "elemental": "wind",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 5,
+      "time": 0,
+      "space": 3,
+      "mirage": 0
+    },
+    "effect": "MOV+3",
+    "level": 1
+  },
+  {
+    "name": "Hare",
+    "type": 19,
+    "elemental": "wind",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 3,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "Increases chance of escaping from battle by 50%.",
+    "level": 1
+  },
+  {
+    "name": "Intimidation",
+    "type": 20,
+    "elemental": "wind",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 2,
+      "wind": 3,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "Enemies more likely to run away on the field.",
+    "level": 1
+  },
+  {
+    "name": "Scent",
+    "type": 21,
+    "elemental": "wind",
+    "cost": {
+      "earth": 2,
+      "water": 0,
+      "fire": 0,
+      "wind": 4,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "Enemies more likely to notice you on the field.",
+    "level": 1
+  },
+  {
+    "name": "Virgo Gem",
+    "type": 22,
+    "elemental": "wind",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 5,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "All ailments last for 1 turn.",
+    "level": 1
+  },
+  {
+    "name": "Sagittarius Gem",
+    "type": 23,
+    "elemental": "wind",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 5,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "EVA+10%/MOV+6",
+    "level": 1
+  },
+  {
+    "name": "Action 1",
+    "type": 24,
+    "elemental": "time",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 1,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "SPD+10%",
+    "level": 1
+  },
+  {
+    "name": "Action 2",
+    "type": 24,
+    "elemental": "time",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 3,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "SPD+20%",
+    "level": 1
+  },
+  {
+    "name": "Action 3",
+    "type": 24,
+    "elemental": "time",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 5,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "SPD+30%",
+    "level": 1
+  },
+  {
+    "name": "Impede 1",
+    "type": 25,
+    "elemental": "time",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 1,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "Cancels enemy arts and crafts with 10% success rate.",
+    "level": 1
+  },
+  {
+    "name": "Impede 2",
+    "type": 25,
+    "elemental": "time",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 2,
+      "time": 3,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "Cancels enemy arts and crafts with 20% success rate.",
+    "level": 1
+  },
+  {
+    "name": "Impede 3",
+    "type": 25,
+    "elemental": "time",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 3,
+      "time": 5,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "Cancels enemy arts and crafts with 30% success rate.",
+    "level": 1
+  },
+  {
+    "name": "Cast",
+    "type": 26,
+    "elemental": "time",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 3,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "Time to cast arts is cut by 25%.",
+    "level": 1
+  },
+  {
+    "name": "Luck",
+    "type": 27,
+    "elemental": "time",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 3,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "Increases enemy item drop rate by 30%.",
+    "level": 1
+  },
+  {
+    "name": "Pisces Gem",
+    "type": 28,
+    "elemental": "time",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 5,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "May evade magic attacks.",
+    "level": 1
+  },
+  {
+    "name": "Gemini Gem",
+    "type": 29,
+    "elemental": "time",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 5,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "Time to cast arts is cut by 50%.",
+    "level": 1
+  },
+  {
+    "name": "Hit 1",
+    "type": 30,
+    "elemental": "space",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 1,
+      "mirage": 0
+    },
+    "effect": "ACC+10%",
+    "level": 1
+  },
+  {
+    "name": "Hit 2",
+    "type": 30,
+    "elemental": "space",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 3,
+      "mirage": 0
+    },
+    "effect": "ACC+20%",
+    "level": 1
+  },
+  {
+    "name": "Hit 3",
+    "type": 30,
+    "elemental": "space",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 5,
+      "mirage": 0
+    },
+    "effect": "ACC+30%",
+    "level": 1
+  },
+  {
+    "name": "EP Cut 1",
+    "type": 31,
+    "elemental": "space",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 1,
+      "space": 2,
+      "mirage": 0
+    },
+    "effect": "Arts' EP cost -5%.",
+    "level": 1
+  },
+  {
+    "name": "EP Cut 2",
+    "type": 31,
+    "elemental": "space",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 2,
+      "space": 3,
+      "mirage": 0
+    },
+    "effect": "Arts' EP cost -10%.",
+    "level": 1
+  },
+  {
+    "name": "EP Cut 3",
+    "type": 31,
+    "elemental": "space",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 3,
+      "space": 5,
+      "mirage": 0
+    },
+    "effect": "Arts' EP cost -15%.",
+    "level": 1
+  },
+  {
+    "name": "Eagle Eye",
+    "type": 32,
+    "elemental": "space",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 2,
+      "mirage": 1
+    },
+    "effect": "Displays enemies on mini map. (Affects whole party.)",
+    "level": 1
+  },
+  {
+    "name": "Heaven's Eye",
+    "type": 33,
+    "elemental": "space",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 2,
+      "wind": 0,
+      "time": 0,
+      "space": 3,
+      "mirage": 1
+    },
+    "effect": "Combines the effects of Eagle Eye and Information.",
+    "level": 1
+  },
+  {
+    "name": "Range",
+    "type": 34,
+    "elemental": "space",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 3,
+      "mirage": 0
+    },
+    "effect": "Arts' effect range+1.",
+    "level": 1
+  },
+  {
+    "name": "Taurus Gem",
+    "type": 35,
+    "elemental": "space",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 5,
+      "mirage": 0
+    },
+    "effect": "Absorb 25% of physical damage dealt as HP.",
+    "level": 1
+  },
+  {
+    "name": "Solar Gem",
+    "type": 36,
+    "elemental": "space",
+    "cost": {
+      "earth": 2,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 5,
+      "mirage": 0
+    },
+    "effect": "Absorb earth, water, fire, and wind magic attacks.",
+    "level": 1
+  },
+  {
+    "name": "Confuse",
+    "type": 2,
+    "elemental": "mirage",
+    "cost": {
+      "earth": 1,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 5
+    },
+    "effect": "Chance to confuse enemy +10%.",
+    "level": 1
+  },
+  {
+    "name": "EP 1",
+    "type": 37,
+    "elemental": "mirage",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 1,
+      "space": 0,
+      "mirage": 2
+    },
+    "effect": "Max EP+5%",
+    "level": 1
+  },
+  {
+    "name": "EP 2",
+    "type": 37,
+    "elemental": "mirage",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 2,
+      "space": 0,
+      "mirage": 3
+    },
+    "effect": "Max EP+10%",
+    "level": 1
+  },
+  {
+    "name": "EP 3",
+    "type": 37,
+    "elemental": "mirage",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 3,
+      "space": 0,
+      "mirage": 5
+    },
+    "effect": "Max EP+15%",
+    "level": 1
+  },
+  {
+    "name": "Mind 1",
+    "type": 38,
+    "elemental": "mirage",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 1
+    },
+    "effect": "ATS+3%/ADF-1%",
+    "level": 1
+  },
+  {
+    "name": "Mind 2",
+    "type": 38,
+    "elemental": "mirage",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 3
+    },
+    "effect": "ATS+6%/ADF-2%",
+    "level": 1
+  },
+  {
+    "name": "Mind 3",
+    "type": 38,
+    "elemental": "mirage",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 5
+    },
+    "effect": "ATS+9%/ADF-3%",
+    "level": 1
+  },
+  {
+    "name": "Information",
+    "type": 39,
+    "elemental": "mirage",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 3
+    },
+    "effect": "See detailed information about enemies without analyzing.",
+    "level": 1
+  },
+  {
+    "name": "Detection",
+    "type": 40,
+    "elemental": "mirage",
+    "cost": {
+      "earth": 1,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 2
+    },
+    "effect": "Displays treasure chest locations on mini map. (Affects whole party.)",
+    "level": 1
+  },
+  {
+    "name": "Bewitch",
+    "type": 41,
+    "elemental": "mirage",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 1,
+      "time": 0,
+      "space": 2,
+      "mirage": 3
+    },
+    "effect": "Slows movement of enemies attacked on the field.",
+    "level": 1
+  },
+  {
+    "name": "Libra Gem",
+    "type": 42,
+    "elemental": "mirage",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 5
+    },
+    "effect": "Absorb 1% of magic damage dealt as EP.",
+    "level": 1
+  },
+  {
+    "name": "Lunar Gem",
+    "type": 43,
+    "elemental": "mirage",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 4,
+      "space": 0,
+      "mirage": 5
+    },
+    "effect": "Absorb time, space, and mirage magic attacks.",
+    "level": 1
+  }
+]

@@ -1,0 +1,1522 @@
+[
+  {
+    "name": "Defense 1",
+    "type": 1,
+    "elemental": "earth",
+    "cost": {
+      "earth": 1,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "DEF+3%/STR-1%",
+    "level": 1
+  },
+  {
+    "name": "Defense 2",
+    "type": 1,
+    "elemental": "earth",
+    "cost": {
+      "earth": 3,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "DEF+6%/STR-3%",
+    "level": 1
+  },
+  {
+    "name": "Defense 3",
+    "type": 1,
+    "elemental": "earth",
+    "cost": {
+      "earth": 5,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "DEF+9%/STR-5%",
+    "level": 1
+  },
+  {
+    "name": "Defense 4",
+    "type": 1,
+    "elemental": "earth",
+    "cost": {
+      "earth": 8,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "DEF+12%/STR-7%",
+    "level": 1
+  },
+  {
+    "name": "Topaz Gem",
+    "type": 1,
+    "elemental": "earth",
+    "cost": {
+      "earth": 12,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "DEF+15%/STR-9% (\nDefense 5)",
+    "level": 1
+  },
+  {
+    "name": "Poison",
+    "type": 2,
+    "elemental": "earth",
+    "cost": {
+      "earth": 3,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "Poison enemy with 10% success.",
+    "level": 1
+  },
+  {
+    "name": "Poison 2",
+    "type": 2,
+    "elemental": "earth",
+    "cost": {
+      "earth": 8,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "Poison enemy with 20% success.",
+    "level": 1
+  },
+  {
+    "name": "Petrify",
+    "type": 2,
+    "elemental": "earth",
+    "cost": {
+      "earth": 3,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "Petrify enemy with 10% success.",
+    "level": 1
+  },
+  {
+    "name": "Mute",
+    "type": 2,
+    "elemental": "earth",
+    "cost": {
+      "earth": 3,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "Mute enemy with 10% success.",
+    "level": 1
+  },
+  {
+    "name": "Petrify 2",
+    "type": 3,
+    "elemental": "earth",
+    "cost": {
+      "earth": 8,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "Petrify enemy with 20% success.",
+    "level": 1
+  },
+  {
+    "name": "Mute 2",
+    "type": 4,
+    "elemental": "earth",
+    "cost": {
+      "earth": 8,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "Mute enemy with 20% success.",
+    "level": 1
+  },
+  {
+    "name": "Septium Vein",
+    "type": 5,
+    "elemental": "earth",
+    "cost": {
+      "earth": 5,
+      "water": 3,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "Increase all types of sepith dropped by monsters by 1-2.",
+    "level": 1
+  },
+  {
+    "name": "Freeze",
+    "type": 2,
+    "elemental": "water",
+    "cost": {
+      "earth": 0,
+      "water": 3,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "Freeze enemy with 10% success.",
+    "level": 1
+  },
+  {
+    "name": "Freeze 2",
+    "type": 6,
+    "elemental": "water",
+    "cost": {
+      "earth": 0,
+      "water": 8,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "Freeze enemy with 20% success.",
+    "level": 1
+  },
+  {
+    "name": "HP 1",
+    "type": 7,
+    "elemental": "water",
+    "cost": {
+      "earth": 0,
+      "water": 1,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "Max HP+3%",
+    "level": 1
+  },
+  {
+    "name": "HP 2",
+    "type": 7,
+    "elemental": "water",
+    "cost": {
+      "earth": 0,
+      "water": 3,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "Max HP+6%",
+    "level": 1
+  },
+  {
+    "name": "HP 3",
+    "type": 7,
+    "elemental": "water",
+    "cost": {
+      "earth": 0,
+      "water": 5,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "Max HP+9%",
+    "level": 1
+  },
+  {
+    "name": "HP 4",
+    "type": 7,
+    "elemental": "water",
+    "cost": {
+      "earth": 0,
+      "water": 8,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "Max HP+12%",
+    "level": 1
+  },
+  {
+    "name": "Water Gem",
+    "type": 7,
+    "elemental": "water",
+    "cost": {
+      "earth": 0,
+      "water": 12,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "Max HP+15% (\nHP 5)",
+    "level": 1
+  },
+  {
+    "name": "Mind 1",
+    "type": 8,
+    "elemental": "water",
+    "cost": {
+      "earth": 0,
+      "water": 1,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "ATS+3%/ADF-1",
+    "level": 1
+  },
+  {
+    "name": "Mind 2",
+    "type": 8,
+    "elemental": "water",
+    "cost": {
+      "earth": 0,
+      "water": 3,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "ATS+6%/ADF-2",
+    "level": 1
+  },
+  {
+    "name": "Mind 3",
+    "type": 8,
+    "elemental": "water",
+    "cost": {
+      "earth": 0,
+      "water": 5,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "ATS+9%/ADF-3",
+    "level": 1
+  },
+  {
+    "name": "Mind 4",
+    "type": 8,
+    "elemental": "water",
+    "cost": {
+      "earth": 0,
+      "water": 8,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "ATS+12%/ADF-4",
+    "level": 1
+  },
+  {
+    "name": "Sapphire Gem",
+    "type": 8,
+    "elemental": "water",
+    "cost": {
+      "earth": 0,
+      "water": 12,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "ATS+15%/ADF-5 (\nMind 5)",
+    "level": 1
+  },
+  {
+    "name": "Heal",
+    "type": 9,
+    "elemental": "water",
+    "cost": {
+      "earth": 0,
+      "water": 3,
+      "fire": 0,
+      "wind": 0,
+      "time": 2,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "HP slowly recovers by walking.",
+    "level": 1
+  },
+  {
+    "name": "Yin-Yang",
+    "type": 10,
+    "elemental": "water",
+    "cost": {
+      "earth": 0,
+      "water": 5,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 2,
+      "mirage": 0
+    },
+    "effect": "Combine the effects of Haze and Heal.",
+    "level": 1
+  },
+  {
+    "name": "Seal",
+    "type": 2,
+    "elemental": "fire",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 3,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "Seal enemy crafts with 10% success.",
+    "level": 1
+  },
+  {
+    "name": "Seal 2",
+    "type": 11,
+    "elemental": "fire",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 8,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "Seal enemy crafts with 20% success.",
+    "level": 1
+  },
+  {
+    "name": "Attack 1",
+    "type": 12,
+    "elemental": "fire",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 1,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "STR+3%/DEF-1%",
+    "level": 1
+  },
+  {
+    "name": "Attack 2",
+    "type": 12,
+    "elemental": "fire",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 3,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "STR+6%/DEF-3%",
+    "level": 1
+  },
+  {
+    "name": "Attack 3",
+    "type": 12,
+    "elemental": "fire",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 5,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "STR+9%/DEF-5%",
+    "level": 1
+  },
+  {
+    "name": "Attack 4",
+    "type": 12,
+    "elemental": "fire",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 8,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "STR+12%/DEF-7%",
+    "level": 1
+  },
+  {
+    "name": "Ruby Gem",
+    "type": 12,
+    "elemental": "fire",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 12,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "STR+15%/DEF-9% (\nAttack 5)",
+    "level": 1
+  },
+  {
+    "name": "Ingenuity",
+    "type": 13,
+    "elemental": "fire",
+    "cost": {
+      "earth": 0,
+      "water": 2,
+      "fire": 5,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "Recover small amounts of EP while walking.",
+    "level": 1
+  },
+  {
+    "name": "Sleep",
+    "type": 2,
+    "elemental": "wind",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 3,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "Put enemy to sleep with 10% success.",
+    "level": 1
+  },
+  {
+    "name": "Sleep 2",
+    "type": 14,
+    "elemental": "wind",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 8,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "Put enemy to sleep with 20% success.",
+    "level": 1
+  },
+  {
+    "name": "Shield 1",
+    "type": 15,
+    "elemental": "wind",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 1,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "ADF+30/ATS-1%",
+    "level": 1
+  },
+  {
+    "name": "Shield 2",
+    "type": 15,
+    "elemental": "wind",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 3,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "ADF+40/ATS-3%",
+    "level": 1
+  },
+  {
+    "name": "Shield 3",
+    "type": 15,
+    "elemental": "wind",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 5,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "ADF+50/ATS-5%",
+    "level": 1
+  },
+  {
+    "name": "Shield 4",
+    "type": 15,
+    "elemental": "wind",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 8,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "ADF+75/ATS-7%",
+    "level": 1
+  },
+  {
+    "name": "Emerald Gem",
+    "type": 15,
+    "elemental": "wind",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 12,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "ADF+150/ATS-9% (\nShield 5)",
+    "level": 1
+  },
+  {
+    "name": "Evade 1",
+    "type": 16,
+    "elemental": "wind",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 1,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "AGL+1",
+    "level": 1
+  },
+  {
+    "name": "Evade 2",
+    "type": 16,
+    "elemental": "wind",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 3,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "AGL+2",
+    "level": 1
+  },
+  {
+    "name": "Evade 3",
+    "type": 16,
+    "elemental": "wind",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 5,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "AGL+3",
+    "level": 1
+  },
+  {
+    "name": "Evade 4",
+    "type": 16,
+    "elemental": "wind",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 8,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "AGL+4",
+    "level": 1
+  },
+  {
+    "name": "Wind Gem",
+    "type": 16,
+    "elemental": "wind",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 12,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "AGL+5 (\nEvade 5)",
+    "level": 1
+  },
+  {
+    "name": "Impede 1",
+    "type": 17,
+    "elemental": "wind",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 1,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "Prevent enemy arts and crafts with 10% success rate.",
+    "level": 1
+  },
+  {
+    "name": "Impede 2",
+    "type": 17,
+    "elemental": "wind",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 3,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "Prevent enemy arts and crafts with 15% success rate.",
+    "level": 1
+  },
+  {
+    "name": "Impede 3",
+    "type": 17,
+    "elemental": "wind",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 5,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "Prevent enemy arts and crafts with 20% success rate.",
+    "level": 1
+  },
+  {
+    "name": "Impede 4",
+    "type": 17,
+    "elemental": "wind",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 8,
+      "time": 0,
+      "space": 1,
+      "mirage": 0
+    },
+    "effect": "Prevent enemy arts and crafts with 25% success rate.",
+    "level": 1
+  },
+  {
+    "name": "Wood Gem",
+    "type": 17,
+    "elemental": "wind",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 12,
+      "time": 0,
+      "space": 2,
+      "mirage": 0
+    },
+    "effect": "Prevent enemy arts and crafts with 30% success rate. (\nImpede 5)",
+    "level": 1
+  },
+  {
+    "name": "Scent",
+    "type": 18,
+    "elemental": "wind",
+    "cost": {
+      "earth": 2,
+      "water": 0,
+      "fire": 0,
+      "wind": 4,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "Enemies become aware of presence.",
+    "level": 1
+  },
+  {
+    "name": "Absorb",
+    "type": 19,
+    "elemental": "wind",
+    "cost": {
+      "earth": 0,
+      "water": 2,
+      "fire": 0,
+      "wind": 4,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "Recover 2% of user's max HP when defeating an enemy.",
+    "level": 1
+  },
+  {
+    "name": "Blind",
+    "type": 2,
+    "elemental": "time",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 3,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "Blind enemy with 10% success.",
+    "level": 1
+  },
+  {
+    "name": "Deathblow 1",
+    "type": 2,
+    "elemental": "time",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 3,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "Kill enemy with 10% success.",
+    "level": 1
+  },
+  {
+    "name": "Deathblow 2",
+    "type": 2,
+    "elemental": "time",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "100% kills enemy but quartz breaks.",
+    "level": 1
+  },
+  {
+    "name": "Death",
+    "type": 2,
+    "elemental": "time",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 8,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "Kill enemy with 20% success.",
+    "level": 1
+  },
+  {
+    "name": "Blind 2",
+    "type": 20,
+    "elemental": "time",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 8,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "Blind enemy with 20% success.",
+    "level": 1
+  },
+  {
+    "name": "Action 1",
+    "type": 21,
+    "elemental": "time",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 1,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "SPD+10%",
+    "level": 1
+  },
+  {
+    "name": "Action 2",
+    "type": 21,
+    "elemental": "time",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 3,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "SPD+20%",
+    "level": 1
+  },
+  {
+    "name": "Action 3",
+    "type": 21,
+    "elemental": "time",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 5,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "SPD+30%",
+    "level": 1
+  },
+  {
+    "name": "Action 4",
+    "type": 21,
+    "elemental": "time",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 8,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "SPD+40%/MOV-1",
+    "level": 1
+  },
+  {
+    "name": "Onyx Gem",
+    "type": 21,
+    "elemental": "time",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 12,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "SPD+50%/MOV-2 (\nAction 5)",
+    "level": 1
+  },
+  {
+    "name": "Cast 1",
+    "type": 22,
+    "elemental": "time",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 1,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "Time to cast arts is cut.",
+    "level": 1
+  },
+  {
+    "name": "Cast 2",
+    "type": 22,
+    "elemental": "time",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 3,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "Time to cast arts is greatly cut.",
+    "level": 1
+  },
+  {
+    "name": "Time Gem",
+    "type": 22,
+    "elemental": "time",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 8,
+      "space": 3,
+      "mirage": 0
+    },
+    "effect": "STR-14%, DEF-14%, ATS -14% (\nCast 3)",
+    "level": 1
+  },
+  {
+    "name": "Luck",
+    "type": 23,
+    "elemental": "time",
+    "cost": {
+      "earth": 1,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 3,
+      "space": 0,
+      "mirage": 0
+    },
+    "effect": "Increases enemy item drop rate by 30%.",
+    "level": 1
+  },
+  {
+    "name": "Strike",
+    "type": 2,
+    "elemental": "space",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 3,
+      "mirage": 0
+    },
+    "effect": "Critically strike with 10% success.",
+    "level": 1
+  },
+  {
+    "name": "Strike 2",
+    "type": 24,
+    "elemental": "space",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 8,
+      "mirage": 0
+    },
+    "effect": "Critically strike with 20% success.",
+    "level": 1
+  },
+  {
+    "name": "Move 1",
+    "type": 25,
+    "elemental": "space",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 1,
+      "mirage": 0
+    },
+    "effect": "MOV+1",
+    "level": 1
+  },
+  {
+    "name": "Move 2",
+    "type": 25,
+    "elemental": "space",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 3,
+      "mirage": 0
+    },
+    "effect": "MOV+2",
+    "level": 1
+  },
+  {
+    "name": "Move 3",
+    "type": 25,
+    "elemental": "space",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 5,
+      "mirage": 0
+    },
+    "effect": "MOV+3",
+    "level": 1
+  },
+  {
+    "name": "Range 1",
+    "type": 26,
+    "elemental": "space",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 3,
+      "mirage": 0
+    },
+    "effect": "Arts' effect range+1",
+    "level": 1
+  },
+  {
+    "name": "EP Cut 1",
+    "type": 27,
+    "elemental": "space",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 1,
+      "space": 2,
+      "mirage": 0
+    },
+    "effect": "Arts' EP cost-10%.",
+    "level": 1
+  },
+  {
+    "name": "EP Cut 2",
+    "type": 27,
+    "elemental": "space",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 2,
+      "space": 3,
+      "mirage": 0
+    },
+    "effect": "Arts' EP cost-20%.",
+    "level": 1
+  },
+  {
+    "name": "EP Cut 3",
+    "type": 27,
+    "elemental": "space",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 3,
+      "space": 5,
+      "mirage": 0
+    },
+    "effect": "Arts' EP cost-30%.",
+    "level": 1
+  },
+  {
+    "name": "EP Cut 4",
+    "type": 27,
+    "elemental": "space",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 5,
+      "space": 8,
+      "mirage": 0
+    },
+    "effect": "Arts' EP cost-40%.",
+    "level": 1
+  },
+  {
+    "name": "Gold Gem",
+    "type": 27,
+    "elemental": "space",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 7,
+      "space": 10,
+      "mirage": 0
+    },
+    "effect": "Arts' EP cost-50%. (\nEP Cut 5)",
+    "level": 1
+  },
+  {
+    "name": "Eagle Eye",
+    "type": 28,
+    "elemental": "space",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 3,
+      "mirage": 2
+    },
+    "effect": "Can see enemies from a distance.",
+    "level": 1
+  },
+  {
+    "name": "Heaven's Eye",
+    "type": 29,
+    "elemental": "space",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 2,
+      "wind": 0,
+      "time": 0,
+      "space": 3,
+      "mirage": 1
+    },
+    "effect": "Combine the effects of Eagle Eye and Information.",
+    "level": 1
+  },
+  {
+    "name": "Confuse",
+    "type": 2,
+    "elemental": "mirage",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 3
+    },
+    "effect": "Confuse enemy with 10% success.",
+    "level": 1
+  },
+  {
+    "name": "Confuse 2",
+    "type": 30,
+    "elemental": "mirage",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 8
+    },
+    "effect": "Confuse enemy with 20% success.",
+    "level": 1
+  },
+  {
+    "name": "EP 1",
+    "type": 31,
+    "elemental": "mirage",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 1,
+      "space": 0,
+      "mirage": 2
+    },
+    "effect": "Max EP+3%",
+    "level": 1
+  },
+  {
+    "name": "EP 2",
+    "type": 31,
+    "elemental": "mirage",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 2,
+      "space": 0,
+      "mirage": 3
+    },
+    "effect": "Max EP+6%",
+    "level": 1
+  },
+  {
+    "name": "EP 3",
+    "type": 31,
+    "elemental": "mirage",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 3,
+      "space": 0,
+      "mirage": 5
+    },
+    "effect": "Max EP+9%",
+    "level": 1
+  },
+  {
+    "name": "EP 4",
+    "type": 31,
+    "elemental": "mirage",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 5,
+      "space": 0,
+      "mirage": 8
+    },
+    "effect": "Max EP+12%",
+    "level": 1
+  },
+  {
+    "name": "Silver Gem",
+    "type": 31,
+    "elemental": "mirage",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 8,
+      "space": 0,
+      "mirage": 12
+    },
+    "effect": "Max EP+15% (\nEP 5)",
+    "level": 1
+  },
+  {
+    "name": "Hit 1",
+    "type": 32,
+    "elemental": "mirage",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 1
+    },
+    "effect": "DEX+5/AGL-1",
+    "level": 1
+  },
+  {
+    "name": "Hit 2",
+    "type": 32,
+    "elemental": "mirage",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 3
+    },
+    "effect": "DEX+10/AGL-2",
+    "level": 1
+  },
+  {
+    "name": "Hit 3",
+    "type": 32,
+    "elemental": "mirage",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 5
+    },
+    "effect": "DEX+15/AGL-3",
+    "level": 1
+  },
+  {
+    "name": "Hit 4",
+    "type": 32,
+    "elemental": "mirage",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 8
+    },
+    "effect": "DEX+20/AGL-4",
+    "level": 1
+  },
+  {
+    "name": "Mirage Gem",
+    "type": 32,
+    "elemental": "mirage",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 12
+    },
+    "effect": "DEX+25/AGL-5 (\nHit 5)",
+    "level": 1
+  },
+  {
+    "name": "Information",
+    "type": 33,
+    "elemental": "mirage",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 2
+    },
+    "effect": "Be able to perceive enemy status.",
+    "level": 1
+  },
+  {
+    "name": "Haze",
+    "type": 34,
+    "elemental": "mirage",
+    "cost": {
+      "earth": 2,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 3
+    },
+    "effect": "Enemies become unaware of presence.",
+    "level": 1
+  },
+  {
+    "name": "Cloak",
+    "type": 35,
+    "elemental": "mirage",
+    "cost": {
+      "earth": 0,
+      "water": 0,
+      "fire": 2,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 3
+    },
+    "effect": "No encounters.",
+    "level": 1
+  }
+]

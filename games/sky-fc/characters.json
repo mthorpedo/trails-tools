@@ -1,0 +1,234 @@
+[
+  {
+    "name": "Agate Crosner",
+    "orbment": [
+      {
+        "elemental": "fire",
+        "line": 0
+      },
+      {
+        "elemental": null,
+        "line": 1
+      },
+      {
+        "elemental": null,
+        "line": 1
+      },
+      {
+        "elemental": null,
+        "line": 2
+      },
+      {
+        "elemental": null,
+        "line": 3
+      },
+      {
+        "elemental": "fire",
+        "line": 3
+      }
+    ]
+  },
+  {
+    "name": "Estelle Bright",
+    "orbment": [
+      {
+        "elemental": null,
+        "line": 0
+      },
+      {
+        "elemental": null,
+        "line": 1
+      },
+      {
+        "elemental": null,
+        "line": 1
+      },
+      {
+        "elemental": null,
+        "line": 1
+      },
+      {
+        "elemental": null,
+        "line": 2
+      },
+      {
+        "elemental": null,
+        "line": 2
+      }
+    ]
+  },
+  {
+    "name": "Joshua Astray",
+    "orbment": [
+      {
+        "elemental": "time",
+        "line": 0
+      },
+      {
+        "elemental": null,
+        "line": 1
+      },
+      {
+        "elemental": null,
+        "line": 1
+      },
+      {
+        "elemental": "time",
+        "line": 1
+      },
+      {
+        "elemental": null,
+        "line": 1
+      },
+      {
+        "elemental": null,
+        "line": 2
+      }
+    ]
+  },
+  {
+    "name": "Kloe Rinz",
+    "orbment": [
+      {
+        "elemental": "water",
+        "line": 0
+      },
+      {
+        "elemental": "water",
+        "line": 1
+      },
+      {
+        "elemental": null,
+        "line": 1
+      },
+      {
+        "elemental": "water",
+        "line": 1
+      },
+      {
+        "elemental": null,
+        "line": 1
+      },
+      {
+        "elemental": null,
+        "line": 1
+      }
+    ]
+  },
+  {
+    "name": "Olivier Lenheim",
+    "orbment": [
+      {
+        "elemental": "mirage",
+        "line": 0
+      },
+      {
+        "elemental": null,
+        "line": 1
+      },
+      {
+        "elemental": null,
+        "line": 1
+      },
+      {
+        "elemental": null,
+        "line": 1
+      },
+      {
+        "elemental": null,
+        "line": 1
+      },
+      {
+        "elemental": null,
+        "line": 1
+      }
+    ]
+  },
+  {
+    "name": "Scherazard Harvey",
+    "orbment": [
+      {
+        "elemental": "wind",
+        "line": 0
+      },
+      {
+        "elemental": null,
+        "line": 1
+      },
+      {
+        "elemental": null,
+        "line": 2
+      },
+      {
+        "elemental": null,
+        "line": 2
+      },
+      {
+        "elemental": "wind",
+        "line": 2
+      },
+      {
+        "elemental": null,
+        "line": 2
+      }
+    ]
+  },
+  {
+    "name": "Tita Russell",
+    "orbment": [
+      {
+        "elemental": "space",
+        "line": 0
+      },
+      {
+        "elemental": null,
+        "line": 1
+      },
+      {
+        "elemental": null,
+        "line": 2
+      },
+      {
+        "elemental": "space",
+        "line": 2
+      },
+      {
+        "elemental": null,
+        "line": 2
+      },
+      {
+        "elemental": null,
+        "line": 3
+      }
+    ]
+  },
+  {
+    "name": "Zin Vathek",
+    "orbment": [
+      {
+        "elemental": "earth",
+        "line": 0
+      },
+      {
+        "elemental": null,
+        "line": 1
+      },
+      {
+        "elemental": null,
+        "line": 1
+      },
+      {
+        "elemental": null,
+        "line": 2
+      },
+      {
+        "elemental": null,
+        "line": 3
+      },
+      {
+        "elemental": "earth",
+        "line": 4
+      }
+    ]
+  }
+]

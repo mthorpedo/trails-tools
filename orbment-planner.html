@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trails orbment planner</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Trails orbment planner</h1>
+  </header>
+
+  <main>
+    <section class="controls" aria-label="Game and character">
+      <div class="field">
+        <label for="game">Game</label>
+        <select id="game" name="game">
+          <option value="">Select a game…</option>
+          <option value="sky-fc">Sky FC</option>
+          <option value="sky-sc">Sky SC</option>
+          <option value="sky-tc">Sky the 3rd</option>
+          <option value="zero">Trails from Zero</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="character">Character</label>
+        <select id="character" name="character" disabled>
+          <option value="">Select a game…</option>
+        </select>
+      </div>
+    </section>
+
+    <section id="character-panel" class="panel hidden" aria-live="polite">
+      <h2>Orbment slots</h2>
+      <div class="table-wrap">
+        <table id="orbment-slots" class="slots">
+          <thead>
+            <tr>
+              <th scope="col">Elemental</th>
+              <th scope="col">Quartz</th>
+              <th scope="col">Effect</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+
+      <h2>Line sepith totals</h2>
+      <p id="line-totals-empty" class="muted hidden">No positive line groups for this character.</p>
+      <div class="table-wrap">
+        <table id="line-totals" class="line-totals">
+          <thead>
+            <tr>
+              <th scope="col">Line</th>
+              <th scope="col">earth</th>
+              <th scope="col">water</th>
+              <th scope="col">fire</th>
+              <th scope="col">wind</th>
+              <th scope="col">time</th>
+              <th scope="col">space</th>
+              <th scope="col">mirage</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+
+      <h2>Enabled arts</h2>
+      <p id="arts-enabled-empty" class="muted hidden">No arts match current sepith on any line.</p>
+      <div class="table-wrap">
+        <table id="arts-enabled" class="arts-enabled">
+          <thead>
+            <tr>
+              <th scope="col">Name</th>
+              <th scope="col">Line</th>
+              <th scope="col">Elemental</th>
+              <th scope="col">Elemental Value</th>
+              <th scope="col">Cost</th>
+              <th scope="col">Time</th>
+              <th scope="col">Power</th>
+              <th scope="col">Target Effect</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+
+    <p id="load-error" class="error hidden" role="alert"></p>
+  </main>
+
+  <script src="app.js" defer></script>
+</body>
+</html>

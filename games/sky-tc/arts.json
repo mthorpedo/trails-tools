@@ -1,0 +1,1724 @@
+[
+  {
+    "name": "Titanic Roar",
+    "description": "Earth - Area (All) - Attack\nCreates a powerful localized earthquake.",
+    "elemental": "earth",
+    "elemental-value": {
+      "earth": 8,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 4,
+      "mirage": 0
+    },
+    "cost": 70,
+    "time": {
+      "cast": 30,
+      "delay": 20
+    },
+    "power": 50,
+    "target-effect": "All targets"
+  },
+  {
+    "name": "Geo Catastrophe",
+    "description": "Earth - Area (All) - Attack\nMagma power converts into a massive localized earthquake.",
+    "elemental": "earth",
+    "elemental-value": {
+      "earth": 14,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 12,
+      "mirage": 0
+    },
+    "cost": 160,
+    "time": {
+      "cast": 35,
+      "delay": 20
+    },
+    "power": 300,
+    "target-effect": "All targets"
+  },
+  {
+    "name": "Gaia Shield",
+    "description": "Earth - Area (All) - Support\nForms a temporary earth shield boundary. [Immunity]",
+    "elemental": "earth",
+    "elemental-value": {
+      "earth": 16,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 15,
+      "mirage": 0
+    },
+    "cost": 220,
+    "time": {
+      "cast": 45,
+      "delay": 35
+    },
+    "power": 0,
+    "target-effect": "All targets\nGuard (1 atk)"
+  },
+  {
+    "name": "Earth Wall",
+    "description": "Earth - Area (S) - Support\nForms a temporary earth shield perimeter. [Immunity]",
+    "elemental": "earth",
+    "elemental-value": {
+      "earth": 8,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 4,
+      "mirage": 0
+    },
+    "cost": 75,
+    "time": {
+      "cast": 32,
+      "delay": 25
+    },
+    "power": 0,
+    "target-effect": "Circle around target (2 radius)\nGuard (1 atk)"
+  },
+  {
+    "name": "Petrosphere",
+    "description": "Earth - Area (S) - Debilitate\nBinds foes' legs with the power of the earth. [MOV-4]",
+    "elemental": "earth",
+    "elemental-value": {
+      "earth": 6,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 4,
+      "space": 0,
+      "mirage": 0
+    },
+    "cost": 40,
+    "time": {
+      "cast": 22,
+      "delay": 20
+    },
+    "power": 0,
+    "target-effect": "Circle around target (2 radius)\nMOV-4 (300 AT)"
+  },
+  {
+    "name": "Stone Impact",
+    "description": "Earth - Area (M) - Attack\nDrops a massive boulder on enemies.",
+    "elemental": "earth",
+    "elemental-value": {
+      "earth": 3,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 2,
+      "mirage": 0
+    },
+    "cost": 40,
+    "time": {
+      "cast": 25,
+      "delay": 20
+    },
+    "power": 20,
+    "target-effect": "Circle around target (3 radius)"
+  },
+  {
+    "name": "Atlas Hammer",
+    "description": "Earth - Area (M) - Attack\nDrops a colossal mass of boulders onto enemies.",
+    "elemental": "earth",
+    "elemental-value": {
+      "earth": 10,
+      "water": 0,
+      "fire": 6,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "cost": 80,
+    "time": {
+      "cast": 30,
+      "delay": 20
+    },
+    "power": 300,
+    "target-effect": "Circle around target (3 radius)"
+  },
+  {
+    "name": "Petrify Cloud",
+    "description": "Earth - Area (M) - Attack\nBlows petrifying gas on an area. [Petrify 20%]",
+    "elemental": "earth",
+    "elemental-value": {
+      "earth": 5,
+      "water": 0,
+      "fire": 0,
+      "wind": 3,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "cost": 60,
+    "time": {
+      "cast": 30,
+      "delay": 20
+    },
+    "power": 100,
+    "target-effect": "Circle around target (3 radius)\nPetrify (20% chance, ∞ AT)"
+  },
+  {
+    "name": "La Crest",
+    "description": "Earth - Area (M) - Support\nGrants earth protection to all allies in range. [DEF+25%]",
+    "elemental": "earth",
+    "elemental-value": {
+      "earth": 5,
+      "water": 3,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "cost": 40,
+    "time": {
+      "cast": 26,
+      "delay": 20
+    },
+    "power": 0,
+    "target-effect": "Circle around target (4 radius)\nDEF+25% (400 AT)"
+  },
+  {
+    "name": "Stone Hammer",
+    "description": "Earth - Single - Attack\nDrops a large boulder on enemies.",
+    "elemental": "earth",
+    "elemental-value": {
+      "earth": 1,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "cost": 10,
+    "time": {
+      "cast": 20,
+      "delay": 20
+    },
+    "power": 15,
+    "target-effect": "Single target"
+  },
+  {
+    "name": "Earth Lance",
+    "description": "Earth - Single - Attack\nPointed blades shoot up from the ground.",
+    "elemental": "earth",
+    "elemental-value": {
+      "earth": 5,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "cost": 40,
+    "time": {
+      "cast": 20,
+      "delay": 20
+    },
+    "power": 300,
+    "target-effect": "Single target"
+  },
+  {
+    "name": "Crest",
+    "description": "Earth - Single - Support\nTemporarily grants protection from the earth. [DEF+25%]",
+    "elemental": "earth",
+    "elemental-value": {
+      "earth": 2,
+      "water": 1,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "cost": 15,
+    "time": {
+      "cast": 13,
+      "delay": 20
+    },
+    "power": 0,
+    "target-effect": "Single target\nDEF+25% (400 AT)"
+  },
+  {
+    "name": "Earth Guard",
+    "description": "Earth - Single - Support\nForms a temporary earth shield. [Immunity]",
+    "elemental": "earth",
+    "elemental-value": {
+      "earth": 2,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "cost": 10,
+    "time": {
+      "cast": 20,
+      "delay": 22
+    },
+    "power": 0,
+    "target-effect": "Single target\nGuard (1 atk)"
+  },
+  {
+    "name": "Petrify Breath",
+    "description": "Earth - Single - Attack\nBlows petrifying gas on an enemy. [Petrify 20%]",
+    "elemental": "earth",
+    "elemental-value": {
+      "earth": 3,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "cost": 30,
+    "time": {
+      "cast": 20,
+      "delay": 20
+    },
+    "power": 100,
+    "target-effect": "Single target\nPetrify (20% chance, ∞ AT)"
+  },
+  {
+    "name": "La Tear-All",
+    "description": "Water - Area (All) - Recovery\nHeals all HP for all allies.",
+    "elemental": "water",
+    "elemental-value": {
+      "earth": 0,
+      "water": 22,
+      "fire": 0,
+      "wind": 12,
+      "time": 0,
+      "space": 6,
+      "mirage": 0
+    },
+    "cost": 300,
+    "time": {
+      "cast": 20,
+      "delay": 40
+    },
+    "power": 0,
+    "target-effect": "All targets\nAll HP healed"
+  },
+  {
+    "name": "Cocytus",
+    "description": "Water - Area (All) - Attack\nSummons enormous pillars of ice. [Freeze 20%]",
+    "elemental": "water",
+    "elemental-value": {
+      "earth": 0,
+      "water": 25,
+      "fire": 0,
+      "wind": 12,
+      "time": 0,
+      "space": 5,
+      "mirage": 0
+    },
+    "cost": 150,
+    "time": {
+      "cast": 50,
+      "delay": 20
+    },
+    "power": 150,
+    "target-effect": "All targets\nFreeze (20% chance, 400 AT)"
+  },
+  {
+    "name": "La Tear",
+    "description": "Water - Area (S) - Recovery\nHeals 2500HP for allies in the area.",
+    "elemental": "water",
+    "elemental-value": {
+      "earth": 0,
+      "water": 2,
+      "fire": 0,
+      "wind": 1,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "cost": 20,
+    "time": {
+      "cast": 10,
+      "delay": 25
+    },
+    "power": 0,
+    "target-effect": "Circle around target (2 radius)\n2500 HP healed"
+  },
+  {
+    "name": "La Teara",
+    "description": "Water - Area (M) - Recovery\nHeals 6000HP for allies in the area.",
+    "elemental": "water",
+    "elemental-value": {
+      "earth": 0,
+      "water": 8,
+      "fire": 0,
+      "wind": 2,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "cost": 55,
+    "time": {
+      "cast": 12,
+      "delay": 30
+    },
+    "power": 0,
+    "target-effect": "Circle around target (4 radius)\n6000 HP healed"
+  },
+  {
+    "name": "La Curia",
+    "description": "Water - Area (L) - Recovery\nCures status of all allies in area except those K.O.ed.",
+    "elemental": "water",
+    "elemental-value": {
+      "earth": 0,
+      "water": 8,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 2,
+      "mirage": 4
+    },
+    "cost": 30,
+    "time": {
+      "cast": 15,
+      "delay": 25
+    },
+    "power": 0,
+    "target-effect": "Circle around target (5 radius)\nCures status effects"
+  },
+  {
+    "name": "La Tearal",
+    "description": "Water - Area (L) - Recovery\nHeals 12000HP for allies in the area.",
+    "elemental": "water",
+    "elemental-value": {
+      "earth": 0,
+      "water": 16,
+      "fire": 0,
+      "wind": 8,
+      "time": 0,
+      "space": 4,
+      "mirage": 0
+    },
+    "cost": 200,
+    "time": {
+      "cast": 16,
+      "delay": 35
+    },
+    "power": 0,
+    "target-effect": "Circle around target (6 radius)\n12000 HP healed"
+  },
+  {
+    "name": "Diamond Dust",
+    "description": "Water - Area (S) - Attack (Set)\nProduces intense cold. [Freeze 20%]",
+    "elemental": "water",
+    "elemental-value": {
+      "earth": 0,
+      "water": 10,
+      "fire": 0,
+      "wind": 2,
+      "time": 0,
+      "space": 1,
+      "mirage": 0
+    },
+    "cost": 60,
+    "time": {
+      "cast": 32,
+      "delay": 20
+    },
+    "power": 100,
+    "target-effect": "Set circle (2 radius)\nFreeze (20% chance, 400 AT)"
+  },
+  {
+    "name": "Aqua Bleed",
+    "description": "Water - Single - Attack\nShoots a heavy stream of water at enemies.",
+    "elemental": "water",
+    "elemental-value": {
+      "earth": 0,
+      "water": 1,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "cost": 10,
+    "time": {
+      "cast": 20,
+      "delay": 20
+    },
+    "power": 10,
+    "target-effect": "Single target"
+  },
+  {
+    "name": "Blue Impact",
+    "description": "Water - Single - Attack\nBlasts an enemy with highly pressurized water.",
+    "elemental": "water",
+    "elemental-value": {
+      "earth": 0,
+      "water": 5,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "cost": 40,
+    "time": {
+      "cast": 20,
+      "delay": 20
+    },
+    "power": 250,
+    "target-effect": "Single target"
+  },
+  {
+    "name": "Blue Ascension",
+    "description": "Water - Single - Attack\nBlasts an enemy with an explosive fountain of water.",
+    "elemental": "water",
+    "elemental-value": {
+      "earth": 0,
+      "water": 12,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "cost": 80,
+    "time": {
+      "cast": 30,
+      "delay": 20
+    },
+    "power": 400,
+    "target-effect": "Single target"
+  },
+  {
+    "name": "Tearal",
+    "description": "Water - Single - Recovery\nHeals 12000HP for an ally.",
+    "elemental": "water",
+    "elemental-value": {
+      "earth": 0,
+      "water": 8,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "cost": 40,
+    "time": {
+      "cast": 11,
+      "delay": 31
+    },
+    "power": 0,
+    "target-effect": "Single target\n12000 HP healed"
+  },
+  {
+    "name": "Tear",
+    "description": "Water - Single - Recovery\nHeals 2500HP for an ally.",
+    "elemental": "water",
+    "elemental-value": {
+      "earth": 0,
+      "water": 1,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "cost": 10,
+    "time": {
+      "cast": 8,
+      "delay": 25
+    },
+    "power": 0,
+    "target-effect": "Single target\n2500 HP healed"
+  },
+  {
+    "name": "Teara",
+    "description": "Water - Single - Recovery\nHeals 6000HP for an ally.",
+    "elemental": "water",
+    "elemental-value": {
+      "earth": 0,
+      "water": 4,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "cost": 20,
+    "time": {
+      "cast": 9,
+      "delay": 28
+    },
+    "power": 0,
+    "target-effect": "Single target\n6000 HP healed"
+  },
+  {
+    "name": "Tear-All",
+    "description": "Water - Single - Recovery\nHeals all HP for an ally.",
+    "elemental": "water",
+    "elemental-value": {
+      "earth": 0,
+      "water": 15,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "cost": 70,
+    "time": {
+      "cast": 13,
+      "delay": 35
+    },
+    "power": 0,
+    "target-effect": "Single target\nAll HP healed"
+  },
+  {
+    "name": "Thelas",
+    "description": "Water - Single - Recovery\nRevives and heals 2000HP.",
+    "elemental": "water",
+    "elemental-value": {
+      "earth": 2,
+      "water": 4,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 1
+    },
+    "cost": 30,
+    "time": {
+      "cast": 10,
+      "delay": 20
+    },
+    "power": 0,
+    "target-effect": "Single target\nCures K.O.\n2000 HP healed"
+  },
+  {
+    "name": "Athelas",
+    "description": "Water - Single - Recovery\nRevives and heals all HP for an ally.",
+    "elemental": "water",
+    "elemental-value": {
+      "earth": 8,
+      "water": 18,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 4
+    },
+    "cost": 180,
+    "time": {
+      "cast": 17,
+      "delay": 25
+    },
+    "power": 0,
+    "target-effect": "Single target\nCures K.O.\nAll HP healed"
+  },
+  {
+    "name": "Curia",
+    "description": "Water - Single - Recovery\nCures all abnormal status except K.O.",
+    "elemental": "water",
+    "elemental-value": {
+      "earth": 0,
+      "water": 2,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 1
+    },
+    "cost": 10,
+    "time": {
+      "cast": 10,
+      "delay": 20
+    },
+    "power": 0,
+    "target-effect": "Single target\nCures status effects"
+  },
+  {
+    "name": "Arc Prominence",
+    "description": "Fire - Area (All) - Attack\nIncinerates all foes in an explosive mass of fire.",
+    "elemental": "fire",
+    "elemental-value": {
+      "earth": 4,
+      "water": 0,
+      "fire": 15,
+      "wind": 8,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "cost": 180,
+    "time": {
+      "cast": 40,
+      "delay": 20
+    },
+    "power": 200,
+    "target-effect": "All targets"
+  },
+  {
+    "name": "Fire Bolt EX",
+    "description": "Fire - Area (M) - Attack\nSends a wave of flaming balls of fire.",
+    "elemental": "fire",
+    "elemental-value": {
+      "earth": 0,
+      "water": 0,
+      "fire": 3,
+      "wind": 1,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "cost": 20,
+    "time": {
+      "cast": 20,
+      "delay": 20
+    },
+    "power": 10,
+    "target-effect": "Circle around target (3 radius)"
+  },
+  {
+    "name": "Spiral Flare",
+    "description": "Fire - Area (M) - Attack\nSends a chaotic flurry of scorching arrows.",
+    "elemental": "fire",
+    "elemental-value": {
+      "earth": 0,
+      "water": 0,
+      "fire": 5,
+      "wind": 2,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "cost": 30,
+    "time": {
+      "cast": 25,
+      "delay": 20
+    },
+    "power": 300,
+    "target-effect": "Circle around target (3 radius)"
+  },
+  {
+    "name": "Volcanic Rave",
+    "description": "Fire - Area (M) - Attack\nCauses an explosion of focused energy.",
+    "elemental": "fire",
+    "elemental-value": {
+      "earth": 3,
+      "water": 0,
+      "fire": 8,
+      "wind": 0,
+      "time": 0,
+      "space": 5,
+      "mirage": 0
+    },
+    "cost": 80,
+    "time": {
+      "cast": 30,
+      "delay": 20
+    },
+    "power": 300,
+    "target-effect": "Circle around target (3 radius)"
+  },
+  {
+    "name": "La Forte",
+    "description": "Fire - Area (M) - Support\nGrants power of fire to all allies in range. [STR+25%]",
+    "elemental": "fire",
+    "elemental-value": {
+      "earth": 0,
+      "water": 0,
+      "fire": 5,
+      "wind": 3,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "cost": 40,
+    "time": {
+      "cast": 26,
+      "delay": 20
+    },
+    "power": 0,
+    "target-effect": "Circle around target (4 radius)\nSTR+25% (400 AT)"
+  },
+  {
+    "name": "Meteo Fall",
+    "description": "Fire - Area (L) - Attack\nCrushes foes with a meteorite summoned from above.",
+    "elemental": "fire",
+    "elemental-value": {
+      "earth": 3,
+      "water": 0,
+      "fire": 8,
+      "wind": 5,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "cost": 100,
+    "time": {
+      "cast": 30,
+      "delay": 20
+    },
+    "power": 400,
+    "target-effect": "Circle around target (5 radius)"
+  },
+  {
+    "name": "Fire Bolt",
+    "description": "Fire - Single - Attack\nShoots a flaming ball of fire.",
+    "elemental": "fire",
+    "elemental-value": {
+      "earth": 0,
+      "water": 0,
+      "fire": 1,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "cost": 10,
+    "time": {
+      "cast": 20,
+      "delay": 20
+    },
+    "power": 10,
+    "target-effect": "Single target"
+  },
+  {
+    "name": "Flare Arrow",
+    "description": "Fire - Single - Attack\nShowers an enemy with searing flames.",
+    "elemental": "fire",
+    "elemental-value": {
+      "earth": 0,
+      "water": 0,
+      "fire": 3,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "cost": 40,
+    "time": {
+      "cast": 20,
+      "delay": 20
+    },
+    "power": 300,
+    "target-effect": "Single target"
+  },
+  {
+    "name": "Napalm Breath",
+    "description": "Fire - Single - Attack\nCrimson flames erupt from below.",
+    "elemental": "fire",
+    "elemental-value": {
+      "earth": 0,
+      "water": 0,
+      "fire": 8,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "cost": 80,
+    "time": {
+      "cast": 25,
+      "delay": 20
+    },
+    "power": 600,
+    "target-effect": "Single target"
+  },
+  {
+    "name": "Cyclone Napalm",
+    "description": "Fire - Single - Attack\nScorches the enemy with whirling crimson flames.",
+    "elemental": "fire",
+    "elemental-value": {
+      "earth": 0,
+      "water": 0,
+      "fire": 12,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "cost": 150,
+    "time": {
+      "cast": 35,
+      "delay": 20
+    },
+    "power": 1000,
+    "target-effect": "Single target"
+  },
+  {
+    "name": "Forte",
+    "description": "Fire - Single - Support\nTemporarily boosts strength by fire. [STR+25%]",
+    "elemental": "fire",
+    "elemental-value": {
+      "earth": 0,
+      "water": 0,
+      "fire": 2,
+      "wind": 1,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "cost": 15,
+    "time": {
+      "cast": 13,
+      "delay": 20
+    },
+    "power": 0,
+    "target-effect": "Single target\nSTR+25% (400 AT)"
+  },
+  {
+    "name": "Grand Stream",
+    "description": "Wind - Area (All) - Attack\nTears foes apart with violent torrents of air.",
+    "elemental": "wind",
+    "elemental-value": {
+      "earth": 3,
+      "water": 0,
+      "fire": 0,
+      "wind": 20,
+      "time": 0,
+      "space": 5,
+      "mirage": 0
+    },
+    "cost": 140,
+    "time": {
+      "cast": 35,
+      "delay": 20
+    },
+    "power": 100,
+    "target-effect": "All targets"
+  },
+  {
+    "name": "Sylpharion",
+    "description": "Wind - Area (S) - Support\nTemporarily uses wind power to increase movement. [MOV+2]",
+    "elemental": "wind",
+    "elemental-value": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 5,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "cost": 40,
+    "time": {
+      "cast": 25,
+      "delay": 20
+    },
+    "power": 0,
+    "target-effect": "Circle around target (2 radius)\nMOV+2 (400 AT)"
+  },
+  {
+    "name": "Aerial",
+    "description": "Wind - Area (M) - Attack (Set)\nA powerful tornado with whirling bits of rubble.",
+    "elemental": "wind",
+    "elemental-value": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 3,
+      "time": 0,
+      "space": 1,
+      "mirage": 0
+    },
+    "cost": 40,
+    "time": {
+      "cast": 25,
+      "delay": 20
+    },
+    "power": 20,
+    "target-effect": "Set circle (3 radius)"
+  },
+  {
+    "name": "Aero Storm",
+    "description": "Wind - Area (L) - Attack (Set)\nCreates a massive vortex of slicing aero blades.",
+    "elemental": "wind",
+    "elemental-value": {
+      "earth": 1,
+      "water": 0,
+      "fire": 0,
+      "wind": 10,
+      "time": 0,
+      "space": 3,
+      "mirage": 0
+    },
+    "cost": 70,
+    "time": {
+      "cast": 30,
+      "delay": 20
+    },
+    "power": 50,
+    "target-effect": "Set circle (5 radius)"
+  },
+  {
+    "name": "Lightning",
+    "description": "Wind - Line - Attack (Set)\nSends out an electrical shock. [Seal 20%]",
+    "elemental": "wind",
+    "elemental-value": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 8,
+      "time": 0,
+      "space": 2,
+      "mirage": 0
+    },
+    "cost": 20,
+    "time": {
+      "cast": 25,
+      "delay": 20
+    },
+    "power": 100,
+    "target-effect": "Set line (1 width)\nSeal (20% chance, 400 AT)"
+  },
+  {
+    "name": "Plasma Wave",
+    "description": "Wind - Line - Attack (Set)\nStrikes with electrical bolts. [Seal 20%]",
+    "elemental": "wind",
+    "elemental-value": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 12,
+      "time": 0,
+      "space": 5,
+      "mirage": 0
+    },
+    "cost": 50,
+    "time": {
+      "cast": 28,
+      "delay": 20
+    },
+    "power": 220,
+    "target-effect": "Set line (2 width)\nSeal (20% chance, 400 AT)"
+  },
+  {
+    "name": "Ragna Blast",
+    "description": "Wind - Line - Attack (Set)\nCalls down lightning of judgment. [Seal 20%]",
+    "elemental": "wind",
+    "elemental-value": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 15,
+      "time": 0,
+      "space": 8,
+      "mirage": 0
+    },
+    "cost": 120,
+    "time": {
+      "cast": 32,
+      "delay": 20
+    },
+    "power": 400,
+    "target-effect": "Set line (2 width)\nSeal (20% chance, 400 AT)"
+  },
+  {
+    "name": "Gale Lance",
+    "description": "Wind - Line - Attack (Set)\nAttacks and pushes back enemies with a blast of wind.",
+    "elemental": "wind",
+    "elemental-value": {
+      "earth": 3,
+      "water": 0,
+      "fire": 0,
+      "wind": 12,
+      "time": 0,
+      "space": 8,
+      "mirage": 0
+    },
+    "cost": 90,
+    "time": {
+      "cast": 28,
+      "delay": 25
+    },
+    "power": 100,
+    "target-effect": "Set line (3 width)"
+  },
+  {
+    "name": "Air Strike",
+    "description": "Wind - Single - Attack\nTears and shreds an enemy with compressed air.",
+    "elemental": "wind",
+    "elemental-value": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 1,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "cost": 10,
+    "time": {
+      "cast": 20,
+      "delay": 20
+    },
+    "power": 10,
+    "target-effect": "Single target"
+  },
+  {
+    "name": "Sylphen Guard",
+    "description": "Wind - Single - Support\nCreates a temporary wind barrier. [AGL+50%]",
+    "elemental": "wind",
+    "elemental-value": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 2,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "cost": 10,
+    "time": {
+      "cast": 20,
+      "delay": 20
+    },
+    "power": 0,
+    "target-effect": "Single target\nAGL+50% (400 AT)"
+  },
+  {
+    "name": "Sylphen Wing",
+    "description": "Wind - Single - Support\nTemporarily borrows the power of wind. [MOV+1]",
+    "elemental": "wind",
+    "elemental-value": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 1,
+      "time": 0,
+      "space": 0,
+      "mirage": 0
+    },
+    "cost": 10,
+    "time": {
+      "cast": 20,
+      "delay": 20
+    },
+    "power": 0,
+    "target-effect": "Single target\nMOV+1 (400 AT)"
+  },
+  {
+    "name": "Calamitous Blast",
+    "description": "Time - Area (All) - Attack\nCreates cracks in time and space to damage foes. [ADF-20%]",
+    "elemental": "time",
+    "elemental-value": {
+      "earth": 0,
+      "water": 0,
+      "fire": 8,
+      "wind": 0,
+      "time": 21,
+      "space": 15,
+      "mirage": 0
+    },
+    "cost": 200,
+    "time": {
+      "cast": 30,
+      "delay": 20
+    },
+    "power": 200,
+    "target-effect": "All targets\nADF-20% (300 AT)"
+  },
+  {
+    "name": "Death Scream",
+    "description": "Time - Area (All) - Attack\nCreates a piercing cry that calls foes to the underworld. [K.O. 20%]",
+    "elemental": "time",
+    "elemental-value": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 15,
+      "space": 10,
+      "mirage": 0
+    },
+    "cost": 120,
+    "time": {
+      "cast": 30,
+      "delay": 25
+    },
+    "power": 25,
+    "target-effect": "All targets\nDeathblow (20% chance)"
+  },
+  {
+    "name": "Orbal Down",
+    "description": "Time - Area (All) - Debilitate\nTemporarily seals all arts. [Mute, ADF-30%]",
+    "elemental": "time",
+    "elemental-value": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 4,
+      "time": 12,
+      "space": 8,
+      "mirage": 0
+    },
+    "cost": 100,
+    "time": {
+      "cast": 28,
+      "delay": 20
+    },
+    "power": 0,
+    "target-effect": "All targets\nMute (100% chance, 400 AT)\nADF-30% (400 AT)"
+  },
+  {
+    "name": "Hell Gate",
+    "description": "Time - Area (S) - Attack\nStagnates enemies' vital activities. [Faint 20%]",
+    "elemental": "time",
+    "elemental-value": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 6,
+      "space": 3,
+      "mirage": 0
+    },
+    "cost": 30,
+    "time": {
+      "cast": 25,
+      "delay": 25
+    },
+    "power": 30,
+    "target-effect": "Circle around target (2 radius)\nFaint (20% chance, 400 AT)"
+  },
+  {
+    "name": "Clock Down",
+    "description": "Time - Area (M) - Debilitate\nSlows the flow of time. [SPD-50%]",
+    "elemental": "time",
+    "elemental-value": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 8,
+      "space": 4,
+      "mirage": 0
+    },
+    "cost": 50,
+    "time": {
+      "cast": 25,
+      "delay": 20
+    },
+    "power": 0,
+    "target-effect": "Circle around target (3 radius)\nSPD-50% (400 AT)"
+  },
+  {
+    "name": "Abyss Fall",
+    "description": "Time - Area (L) - Attack\nSummons forth a messenger from the underworld. [Faint 20%]",
+    "elemental": "time",
+    "elemental-value": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 6,
+      "time": 18,
+      "space": 0,
+      "mirage": 0
+    },
+    "cost": 90,
+    "time": {
+      "cast": 35,
+      "delay": 20
+    },
+    "power": 80,
+    "target-effect": "Circle around target (5 radius)\nFaint (20% chance, 300 AT)"
+  },
+  {
+    "name": "White Gehenna",
+    "description": "Time - Area (M) - Attack (Set)\nDisrupts the time-space continuum. [Faint 20%]",
+    "elemental": "time",
+    "elemental-value": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 4,
+      "time": 10,
+      "space": 0,
+      "mirage": 0
+    },
+    "cost": 60,
+    "time": {
+      "cast": 30,
+      "delay": 20
+    },
+    "power": 65,
+    "target-effect": "Set circle (3 radius)\nFaint (20% chance, 400 AT)"
+  },
+  {
+    "name": "Anti-Sept All",
+    "description": "Time - Area (M) - Debilitate (Set)\nTemporarily prevents the casting of arts. [Mute]",
+    "elemental": "time",
+    "elemental-value": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 1,
+      "time": 7,
+      "space": 3,
+      "mirage": 0
+    },
+    "cost": 40,
+    "time": {
+      "cast": 21,
+      "delay": 20
+    },
+    "power": 0,
+    "target-effect": "Set circle (3 radius)\nMute (100% chance, 400 AT)"
+  },
+  {
+    "name": "Shadow Spear",
+    "description": "Time - Single - Attack\nSummons a blade that whittles away life. [K.O. 20%]",
+    "elemental": "time",
+    "elemental-value": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 7,
+      "space": 0,
+      "mirage": 0
+    },
+    "cost": 40,
+    "time": {
+      "cast": 20,
+      "delay": 20
+    },
+    "power": 100,
+    "target-effect": "Single target\nDeathblow (20% chance)"
+  },
+  {
+    "name": "Soul Blur",
+    "description": "Time - Single - Attack\nEmits a time-space shaking pulse. [Faint 20%]",
+    "elemental": "time",
+    "elemental-value": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 1,
+      "space": 0,
+      "mirage": 0
+    },
+    "cost": 10,
+    "time": {
+      "cast": 20,
+      "delay": 25
+    },
+    "power": 10,
+    "target-effect": "Single target\nFaint (20% chance, 100 AT)"
+  },
+  {
+    "name": "Energy Drain",
+    "description": "Time - Single - Support\nBreaks down foes' life energy as time, draining HP. [HP Absorb]",
+    "elemental": "time",
+    "elemental-value": {
+      "earth": 0,
+      "water": 12,
+      "fire": 0,
+      "wind": 0,
+      "time": 21,
+      "space": 0,
+      "mirage": 0
+    },
+    "cost": 120,
+    "time": {
+      "cast": 25,
+      "delay": 20
+    },
+    "power": 0,
+    "target-effect": "Single target\nHeals for 100% of damage done"
+  },
+  {
+    "name": "Anti-Sept",
+    "description": "Time - Single - Debilitate\nTemporarily prevents the casting of arts. [Mute]",
+    "elemental": "time",
+    "elemental-value": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 3,
+      "space": 0,
+      "mirage": 0
+    },
+    "cost": 20,
+    "time": {
+      "cast": 17,
+      "delay": 20
+    },
+    "power": 0,
+    "target-effect": "Single target\nMute (100% chance, 400 AT)"
+  },
+  {
+    "name": "Clock Up",
+    "description": "Time - Single - Support\nSpeeds up the flow of time. [SPD+25%]",
+    "elemental": "time",
+    "elemental-value": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 1,
+      "space": 0,
+      "mirage": 0
+    },
+    "cost": 10,
+    "time": {
+      "cast": 17,
+      "delay": 20
+    },
+    "power": 0,
+    "target-effect": "Single target\nSPD+25% (400 AT)"
+  },
+  {
+    "name": "Clock Up EX",
+    "description": "Time - Single - Support\nGreatly speeds up the flow of time. [SPD+50%]",
+    "elemental": "time",
+    "elemental-value": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 9,
+      "space": 0,
+      "mirage": 0
+    },
+    "cost": 30,
+    "time": {
+      "cast": 24,
+      "delay": 20
+    },
+    "power": 0,
+    "target-effect": "Single target\nSPD+50% (400 AT)"
+  },
+  {
+    "name": "Devastation Blast",
+    "description": "Space - Area (All) - Attack\nA lost art that compresses space with pure destructive power.",
+    "elemental": "space",
+    "elemental-value": {
+      "earth": 0,
+      "water": 0,
+      "fire": 12,
+      "wind": 5,
+      "time": 8,
+      "space": 21,
+      "mirage": 0
+    },
+    "cost": 250,
+    "time": {
+      "cast": 80,
+      "delay": 40
+    },
+    "power": 1000,
+    "target-effect": "All targets"
+  },
+  {
+    "name": "Genesic Barrier",
+    "description": "Space - Area (All) - Support\nProtects allies with a barrier, nulling all non-recovery arts.",
+    "elemental": "space",
+    "elemental-value": {
+      "earth": 2,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 19,
+      "mirage": 12
+    },
+    "cost": 600,
+    "time": {
+      "cast": 30,
+      "delay": 30
+    },
+    "power": 0,
+    "target-effect": "All targets\nArt Guard (150 AT)"
+  },
+  {
+    "name": "A-Crest",
+    "description": "Space - Area (M) - Support\nRaises in-range allies' arts resistance. [ADF+30%]",
+    "elemental": "space",
+    "elemental-value": {
+      "earth": 1,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 6,
+      "mirage": 0
+    },
+    "cost": 50,
+    "time": {
+      "cast": 20,
+      "delay": 20
+    },
+    "power": 0,
+    "target-effect": "Circle around target (3 radius)\nADF+30% (400 AT)"
+  },
+  {
+    "name": "Lost Mobius",
+    "description": "Space - Area (M) - Attack (Set)\nCrushes foes to paste with warped space.",
+    "elemental": "space",
+    "elemental-value": {
+      "earth": 3,
+      "water": 0,
+      "fire": 0,
+      "wind": 5,
+      "time": 0,
+      "space": 12,
+      "mirage": 0
+    },
+    "cost": 100,
+    "time": {
+      "cast": 30,
+      "delay": 25
+    },
+    "power": 250,
+    "target-effect": "Set circle (4 radius)"
+  },
+  {
+    "name": "Dark Matter EX",
+    "description": "Space - Area (M) - Attack (Set)\nHigh pressure space attracts and crushes foes. [Suction, MOV-2]",
+    "elemental": "space",
+    "elemental-value": {
+      "earth": 3,
+      "water": 0,
+      "fire": 0,
+      "wind": 5,
+      "time": 0,
+      "space": 12,
+      "mirage": 0
+    },
+    "cost": 160,
+    "time": {
+      "cast": 30,
+      "delay": 25
+    },
+    "power": 500,
+    "target-effect": "Set circle (4 radius)\nMoves targets to set point\nMOV-2 (200 AT)"
+  },
+  {
+    "name": "Dark Matter",
+    "description": "Space - Single - Attack\nCrushes a foe's body with compressed space.",
+    "elemental": "space",
+    "elemental-value": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 4,
+      "mirage": 0
+    },
+    "cost": 80,
+    "time": {
+      "cast": 25,
+      "delay": 20
+    },
+    "power": 300,
+    "target-effect": "Single target"
+  },
+  {
+    "name": "Silent Cross",
+    "description": "Mirage - Area (All) - Debilitate\nMist that terminates all ambition. Cancels arts & crafts.",
+    "elemental": "mirage",
+    "elemental-value": {
+      "earth": 2,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 6
+    },
+    "cost": 50,
+    "time": {
+      "cast": 28,
+      "delay": 25
+    },
+    "power": 0,
+    "target-effect": "All targets\nInterrupts casting of skills"
+  },
+  {
+    "name": "Arch Drain",
+    "description": "Mirage - Area (All) - Debilitate\nSteals energy from foes as EP. [EP Absorb]",
+    "elemental": "mirage",
+    "elemental-value": {
+      "earth": 0,
+      "water": 18,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 24
+    },
+    "cost": 0,
+    "time": {
+      "cast": 35,
+      "delay": 25
+    },
+    "power": 0,
+    "target-effect": "All targets\nRestores EP"
+  },
+  {
+    "name": "Zodiac",
+    "description": "Mirage - Area (All) - Support\nTemporarily increases all allies' parameters. [STR&DEF+25%]",
+    "elemental": "mirage",
+    "elemental-value": {
+      "earth": 4,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 8
+    },
+    "cost": 240,
+    "time": {
+      "cast": 30,
+      "delay": 20
+    },
+    "power": 0,
+    "target-effect": "All targets\nSTR+25% (400 AT)\nDEF+25% (400 AT)"
+  },
+  {
+    "name": "Enfeeble",
+    "description": "Mirage - Area (M) - Debilitate\nWeakens enemies in an area. [DEF-25%]",
+    "elemental": "mirage",
+    "elemental-value": {
+      "earth": 0,
+      "water": 3,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 12,
+      "mirage": 21
+    },
+    "cost": 150,
+    "time": {
+      "cast": 35,
+      "delay": 35
+    },
+    "power": 0,
+    "target-effect": "Circle around target (4 radius)\nDEF-50% (200 AT)"
+  },
+  {
+    "name": "Silver Thorn",
+    "description": "Mirage - Area (M) - Attack (Set)\nCalls forth a shower of madness-inducing blades. [Confuse 90%]",
+    "elemental": "mirage",
+    "elemental-value": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 4,
+      "space": 12,
+      "mirage": 20
+    },
+    "cost": 90,
+    "time": {
+      "cast": 30,
+      "delay": 30
+    },
+    "power": 0,
+    "target-effect": "Set circle (3 radius)\nConfuse (90% chance, 200 AT)"
+  },
+  {
+    "name": "Phantom Pain",
+    "description": "Mirage - Area (M) - Debilitate (Set)\nProjects a mirage to weaken foes' will to fight. [STR-15%]",
+    "elemental": "mirage",
+    "elemental-value": {
+      "earth": 3,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 5
+    },
+    "cost": 50,
+    "time": {
+      "cast": 21,
+      "delay": 20
+    },
+    "power": 0,
+    "target-effect": "Set circle (3 radius)\nSTR-15% (300 AT)"
+  },
+  {
+    "name": "Chaos Brand",
+    "description": "Mirage - Single - Debilitate\nMuddles an enemy's cognitive abilities. [Confuse]",
+    "elemental": "mirage",
+    "elemental-value": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 7
+    },
+    "cost": 40,
+    "time": {
+      "cast": 20,
+      "delay": 20
+    },
+    "power": 0,
+    "target-effect": "Single target\nConfuse (100% chance, 250 AT)"
+  },
+  {
+    "name": "Saint",
+    "description": "Mirage - Single - Support\nTemporarily increases an ally's parameters. [STR&DEF+25%]",
+    "elemental": "mirage",
+    "elemental-value": {
+      "earth": 1,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 3
+    },
+    "cost": 40,
+    "time": {
+      "cast": 25,
+      "delay": 20
+    },
+    "power": 0,
+    "target-effect": "Single target\nSTR+25% (400 AT)\nDEF+25% (400 AT)"
+  },
+  {
+    "name": "Ascension",
+    "description": "Mirage - Single - Attack\nCreates a field that inhibits cognitive abilities. [Seal 20%]",
+    "elemental": "mirage",
+    "elemental-value": {
+      "earth": 0,
+      "water": 0,
+      "fire": 0,
+      "wind": 0,
+      "time": 0,
+      "space": 0,
+      "mirage": 1
+    },
+    "cost": 10,
+    "time": {
+      "cast": 20,
+      "delay": 25
+    },
+    "power": 0,
+    "target-effect": "Single target\nSeal (20% chance, 400 AT)"
+  }
+]

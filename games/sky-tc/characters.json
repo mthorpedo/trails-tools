@@ -1,0 +1,530 @@
+[
+  {
+    "name": "Agate Crosner",
+    "orbment": [
+      {
+        "elemental": "fire",
+        "line": 0
+      },
+      {
+        "elemental": null,
+        "line": 1
+      },
+      {
+        "elemental": null,
+        "line": 1
+      },
+      {
+        "elemental": null,
+        "line": 2
+      },
+      {
+        "elemental": null,
+        "line": 2
+      },
+      {
+        "elemental": "fire",
+        "line": 3
+      },
+      {
+        "elemental": null,
+        "line": 3
+      }
+    ]
+  },
+  {
+    "name": "Alan Richard",
+    "orbment": [
+      {
+        "elemental": "fire",
+        "line": 0
+      },
+      {
+        "elemental": null,
+        "line": 2
+      },
+      {
+        "elemental": null,
+        "line": 2
+      },
+      {
+        "elemental": null,
+        "line": 1
+      },
+      {
+        "elemental": null,
+        "line": 2
+      },
+      {
+        "elemental": null,
+        "line": 2
+      },
+      {
+        "elemental": null,
+        "line": 2
+      }
+    ]
+  },
+  {
+    "name": "Anelace Elfead",
+    "orbment": [
+      {
+        "elemental": "wind",
+        "line": 0
+      },
+      {
+        "elemental": null,
+        "line": 1
+      },
+      {
+        "elemental": null,
+        "line": 1
+      },
+      {
+        "elemental": null,
+        "line": 2
+      },
+      {
+        "elemental": "wind",
+        "line": 3
+      },
+      {
+        "elemental": null,
+        "line": 3
+      },
+      {
+        "elemental": null,
+        "line": 4
+      }
+    ]
+  },
+  {
+    "name": "Estelle Bright",
+    "orbment": [
+      {
+        "elemental": null,
+        "line": 0
+      },
+      {
+        "elemental": null,
+        "line": 1
+      },
+      {
+        "elemental": null,
+        "line": 1
+      },
+      {
+        "elemental": null,
+        "line": 1
+      },
+      {
+        "elemental": null,
+        "line": 2
+      },
+      {
+        "elemental": null,
+        "line": 2
+      },
+      {
+        "elemental": null,
+        "line": 2
+      }
+    ]
+  },
+  {
+    "name": "Josette Capua",
+    "orbment": [
+      {
+        "elemental": "earth",
+        "line": 0
+      },
+      {
+        "elemental": null,
+        "line": 1
+      },
+      {
+        "elemental": "earth",
+        "line": 1
+      },
+      {
+        "elemental": null,
+        "line": 1
+      },
+      {
+        "elemental": null,
+        "line": 2
+      },
+      {
+        "elemental": null,
+        "line": 2
+      },
+      {
+        "elemental": null,
+        "line": 2
+      }
+    ]
+  },
+  {
+    "name": "Joshua Bright",
+    "orbment": [
+      {
+        "elemental": "time",
+        "line": 0
+      },
+      {
+        "elemental": null,
+        "line": 1
+      },
+      {
+        "elemental": null,
+        "line": 1
+      },
+      {
+        "elemental": "time",
+        "line": 1
+      },
+      {
+        "elemental": null,
+        "line": 1
+      },
+      {
+        "elemental": null,
+        "line": 2
+      },
+      {
+        "elemental": null,
+        "line": 2
+      }
+    ]
+  },
+  {
+    "name": "Julia Schwarz",
+    "orbment": [
+      {
+        "elemental": "space",
+        "line": 0
+      },
+      {
+        "elemental": null,
+        "line": 1
+      },
+      {
+        "elemental": null,
+        "line": 1
+      },
+      {
+        "elemental": "space",
+        "line": 2
+      },
+      {
+        "elemental": null,
+        "line": 2
+      },
+      {
+        "elemental": null,
+        "line": 2
+      },
+      {
+        "elemental": null,
+        "line": 2
+      }
+    ]
+  },
+  {
+    "name": "Kevin Graham",
+    "orbment": [
+      {
+        "elemental": "time",
+        "line": 0
+      },
+      {
+        "elemental": null,
+        "line": 1
+      },
+      {
+        "elemental": null,
+        "line": 1
+      },
+      {
+        "elemental": null,
+        "line": 1
+      },
+      {
+        "elemental": null,
+        "line": 1
+      },
+      {
+        "elemental": null,
+        "line": 1
+      },
+      {
+        "elemental": null,
+        "line": 2
+      }
+    ]
+  },
+  {
+    "name": "Kloe Rinz",
+    "orbment": [
+      {
+        "elemental": "water",
+        "line": 0
+      },
+      {
+        "elemental": "water",
+        "line": 1
+      },
+      {
+        "elemental": null,
+        "line": 1
+      },
+      {
+        "elemental": "water",
+        "line": 1
+      },
+      {
+        "elemental": null,
+        "line": 1
+      },
+      {
+        "elemental": null,
+        "line": 1
+      },
+      {
+        "elemental": null,
+        "line": 1
+      }
+    ]
+  },
+  {
+    "name": "Mueller Vander",
+    "orbment": [
+      {
+        "elemental": "water",
+        "line": 0
+      },
+      {
+        "elemental": null,
+        "line": 1
+      },
+      {
+        "elemental": null,
+        "line": 1
+      },
+      {
+        "elemental": null,
+        "line": 2
+      },
+      {
+        "elemental": null,
+        "line": 3
+      },
+      {
+        "elemental": null,
+        "line": 3
+      },
+      {
+        "elemental": null,
+        "line": 4
+      }
+    ]
+  },
+  {
+    "name": "Olivier Lenheim",
+    "orbment": [
+      {
+        "elemental": "mirage",
+        "line": 0
+      },
+      {
+        "elemental": null,
+        "line": 1
+      },
+      {
+        "elemental": null,
+        "line": 1
+      },
+      {
+        "elemental": null,
+        "line": 1
+      },
+      {
+        "elemental": null,
+        "line": 1
+      },
+      {
+        "elemental": null,
+        "line": 1
+      },
+      {
+        "elemental": null,
+        "line": 1
+      }
+    ]
+  },
+  {
+    "name": "Renne",
+    "orbment": [
+      {
+        "elemental": null,
+        "line": 0
+      },
+      {
+        "elemental": null,
+        "line": 1
+      },
+      {
+        "elemental": null,
+        "line": 1
+      },
+      {
+        "elemental": null,
+        "line": 1
+      },
+      {
+        "elemental": null,
+        "line": 1
+      },
+      {
+        "elemental": null,
+        "line": 1
+      },
+      {
+        "elemental": null,
+        "line": 1
+      }
+    ]
+  },
+  {
+    "name": "Ries Argent",
+    "orbment": [
+      {
+        "elemental": "mirage",
+        "line": 0
+      },
+      {
+        "elemental": null,
+        "line": 1
+      },
+      {
+        "elemental": null,
+        "line": 1
+      },
+      {
+        "elemental": null,
+        "line": 1
+      },
+      {
+        "elemental": null,
+        "line": 1
+      },
+      {
+        "elemental": null,
+        "line": 2
+      },
+      {
+        "elemental": null,
+        "line": 2
+      }
+    ]
+  },
+  {
+    "name": "Scherazard Harvey",
+    "orbment": [
+      {
+        "elemental": "wind",
+        "line": 0
+      },
+      {
+        "elemental": null,
+        "line": 2
+      },
+      {
+        "elemental": null,
+        "line": 2
+      },
+      {
+        "elemental": null,
+        "line": 2
+      },
+      {
+        "elemental": "wind",
+        "line": 2
+      },
+      {
+        "elemental": null,
+        "line": 2
+      },
+      {
+        "elemental": null,
+        "line": 1
+      }
+    ]
+  },
+  {
+    "name": "Tita Russell",
+    "orbment": [
+      {
+        "elemental": "space",
+        "line": 0
+      },
+      {
+        "elemental": null,
+        "line": 1
+      },
+      {
+        "elemental": null,
+        "line": 2
+      },
+      {
+        "elemental": "space",
+        "line": 2
+      },
+      {
+        "elemental": null,
+        "line": 2
+      },
+      {
+        "elemental": null,
+        "line": 3
+      },
+      {
+        "elemental": null,
+        "line": 3
+      }
+    ]
+  },
+  {
+    "name": "Zin Vathek",
+    "orbment": [
+      {
+        "elemental": "earth",
+        "line": 0
+      },
+      {
+        "elemental": null,
+        "line": 1
+      },
+      {
+        "elemental": null,
+        "line": 1
+      },
+      {
+        "elemental": null,
+        "line": 2
+      },
+      {
+        "elemental": null,
+        "line": 3
+      },
+      {
+        "elemental": "earth",
+        "line": 4
+      },
+      {
+        "elemental": null,
+        "line": 4
+      }
+    ]
+  }
+]

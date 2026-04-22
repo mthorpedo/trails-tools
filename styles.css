@@ -1,0 +1,277 @@
+:root {
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  line-height: 1.4;
+  color: #1a1a1a;
+  background: #f6f7f9;
+}
+
+body {
+  margin: 0;
+  padding: 1rem 1.25rem 2rem;
+}
+
+header h1 {
+  margin: 0 0 1rem;
+  font-size: 1.35rem;
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+label {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+select {
+  min-width: 16rem;
+  padding: 0.45rem 0.5rem;
+  border: 1px solid #c5cad3;
+  border-radius: 6px;
+  background: #fff;
+}
+
+.panel.hidden {
+  display: none;
+}
+
+.panel h2 {
+  font-size: 1.05rem;
+  margin: 1.25rem 0 0.5rem;
+}
+
+.table-wrap {
+  overflow-x: auto;
+  border: 1px solid #d8dde6;
+  border-radius: 8px;
+  background: #fff;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 0.92rem;
+}
+
+th,
+td {
+  border-bottom: 1px solid #e8ebf0;
+  padding: 0.5rem 0.65rem;
+  text-align: left;
+  vertical-align: middle;
+}
+
+thead th {
+  background: #eef1f6;
+  font-weight: 600;
+}
+
+.line-totals td:nth-child(n + 2),
+.line-totals th:nth-child(n + 2) {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Orbment slots: fixed elemental column; quartz and effect split remainder equally. */
+#orbment-slots {
+  table-layout: fixed;
+  width: 100%;
+}
+
+#orbment-slots th,
+#orbment-slots td {
+  box-sizing: border-box;
+}
+
+#orbment-slots th:nth-child(1),
+#orbment-slots td:nth-child(1) {
+  width: 200px;
+  min-width: 200px;
+  max-width: 200px;
+}
+
+#orbment-slots th:nth-child(2),
+#orbment-slots td:nth-child(2),
+#orbment-slots th:nth-child(3),
+#orbment-slots td:nth-child(3) {
+  width: calc((100% - 200px) / 2);
+}
+
+#orbment-slots select {
+  width: 100%;
+  min-width: 0;
+  max-width: 100%;
+}
+
+.arts-enabled .art-name {
+  font-weight: 600;
+}
+
+.arts-enabled .art-desc {
+  font-size: 0.85rem;
+  font-weight: 400;
+  color: #444;
+  margin-top: 0.25rem;
+  white-space: pre-wrap;
+}
+
+.arts-enabled td {
+  vertical-align: top;
+}
+
+.arts-enabled .col-lines {
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+.arts-enabled .col-elemental-value,
+.arts-enabled .col-target {
+  font-size: 0.88rem;
+  max-width: 14rem;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.slots td.quartz-slot-line-1,
+.line-totals tbody tr.quartz-slot-line-1 td {
+  background: #deb887;
+}
+
+.slots td.quartz-slot-line-2,
+.line-totals tbody tr.quartz-slot-line-2 td {
+  background: lightblue;
+}
+
+.slots td.quartz-slot-line-3,
+.line-totals tbody tr.quartz-slot-line-3 td {
+  background: lightgreen;
+}
+
+.slots td.quartz-slot-line-4,
+.line-totals tbody tr.quartz-slot-line-4 td {
+  background: #ffb3b3;
+}
+
+.slots td[class^="quartz-slot-line-"] select {
+  background: rgba(255, 255, 255, 0.88);
+}
+
+/* Orbment table: selected quartz effect (column 3). */
+.quartz-effect-cell {
+  font-size: 0.88rem;
+  max-width: 100%;
+  white-space: pre-wrap;
+  word-break: break-word;
+  vertical-align: top;
+}
+
+/* Quartz dropdown: option backgrounds by quartz elemental (native select; best in Chromium/Firefox). */
+.slots select option.quartz-option.neutral {
+  background: #f0f2f5;
+  color: #333;
+}
+
+.slots select option.quartz-option.elemental-earth {
+  background: #6b4423;
+  color: #fff;
+}
+
+.slots select option.quartz-option.elemental-water {
+  background: #1e5aa8;
+  color: #fff;
+}
+
+.slots select option.quartz-option.elemental-wind {
+  background: #2d7a3e;
+  color: #fff;
+}
+
+.slots select option.quartz-option.elemental-fire {
+  background: #c41e1e;
+  color: #fff;
+}
+
+.slots select option.quartz-option.elemental-time {
+  background: #111;
+  color: #fff;
+}
+
+.slots select option.quartz-option.elemental-space {
+  background: #d4af37;
+  color: #111;
+}
+
+.slots select option.quartz-option.elemental-mirage {
+  background: #d3d7de;
+  color: #111;
+}
+
+.elemental-cell {
+  font-weight: 600;
+  text-transform: capitalize;
+  min-width: 6rem;
+}
+
+.elemental-cell.neutral {
+  background: #f0f2f5;
+  color: #555;
+}
+
+.elemental-earth {
+  background: #6b4423;
+  color: #fff;
+}
+
+.elemental-water {
+  background: #1e5aa8;
+  color: #fff;
+}
+
+.elemental-wind {
+  background: #2d7a3e;
+  color: #fff;
+}
+
+.elemental-fire {
+  background: #c41e1e;
+  color: #fff;
+}
+
+.elemental-time {
+  background: #111;
+  color: #fff;
+}
+
+.elemental-space {
+  background: #d4af37;
+  color: #111;
+}
+
+.elemental-mirage {
+  background: #d3d7de;
+  color: #111;
+}
+
+.muted {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.error {
+  color: #a40000;
+  margin-top: 0.75rem;
+}
+
+.hidden {
+  display: none !important;
+}
