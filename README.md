@@ -1,9 +1,7 @@
 # Trails orbment planner
 
-[![GitHub stars](https://img.shields.io/github/stars/OWNER/REPO?style=flat-square&logo=github)](https://github.com/OWNER/REPO/stargazers)
+[![GitHub stars](https://img.shields.io/github/stars/mthorpedo/trails-tools?style=flat-square&logo=github)](https://github.com/mthorpedo/trails-tools/stargazers)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
-
-Replace `OWNER` and `REPO` in the stars badge URL with your GitHub username and repository name after you publish the repo.
 
 Static **HTML**, **JavaScript**, and **CSS** orbment planner for several *Trails* / *Kiseki* titles. Per-game data lives under [`games/sky-fc`](games/sky-fc), [`games/sky-sc`](games/sky-sc), [`games/sky-tc`](games/sky-tc), and [`games/zero`](games/zero) as `characters.json`, `quartz.json`, and `arts.json`. Full schemas, UI rules, and wiki pipeline details are in [`COMPREHENSIVE-PLAN.md`](COMPREHENSIVE-PLAN.md).
 
