@@ -1,6 +1,7 @@
 [
   {
     "name": "Elie MacDowell",
+    "guest": false,
     "orbment": [
       {
         "elemental": "wind",
@@ -34,6 +35,7 @@
   },
   {
     "name": "Lloyd Bannings",
+    "guest": false,
     "orbment": [
       {
         "elemental": null,
@@ -67,6 +69,7 @@
   },
   {
     "name": "Randy Orlando",
+    "guest": false,
     "orbment": [
       {
         "elemental": "fire",
@@ -100,6 +103,7 @@
   },
   {
     "name": "Tio Plato",
+    "guest": false,
     "orbment": [
       {
         "elemental": "water",
@@ -128,6 +132,108 @@
       {
         "elemental": null,
         "line": 1
+      }
+    ]
+  },
+  {
+    "name": "Noel Seeker",
+    "guest": true,
+    "orbment": [
+      {
+        "elemental": "earth",
+        "line": 0
+      },
+      {
+        "elemental": null,
+        "line": 1
+      },
+      {
+        "elemental": null,
+        "line": 1
+      },
+      {
+        "elemental": null,
+        "line": 1
+      },
+      {
+        "elemental": null,
+        "line": 2
+      },
+      {
+        "elemental": null,
+        "line": 3
+      },
+      {
+        "elemental": null,
+        "line": 4
+      }
+    ]
+  },
+  {
+    "name": "Alex Dudley",
+    "guest": true,
+    "orbment": [
+      {
+        "elemental": "time",
+        "line": 0
+      },
+      {
+        "elemental": null,
+        "line": 1
+      },
+      {
+        "elemental": null,
+        "line": 1
+      },
+      {
+        "elemental": null,
+        "line": 1
+      },
+      {
+        "elemental": null,
+        "line": 1
+      },
+      {
+        "elemental": null,
+        "line": 2
+      },
+      {
+        "elemental": null,
+        "line": 2
+      }
+    ]
+  },
+  {
+    "name": "Yin",
+    "guest": true,
+    "orbment": [
+      {
+        "elemental": "mirage",
+        "line": 0
+      },
+      {
+        "elemental": null,
+        "line": 1
+      },
+      {
+        "elemental": null,
+        "line": 1
+      },
+      {
+        "elemental": null,
+        "line": 1
+      },
+      {
+        "elemental": null,
+        "line": 1
+      },
+      {
+        "elemental": null,
+        "line": 2
+      },
+      {
+        "elemental": null,
+        "line": 3
       }
     ]
   }

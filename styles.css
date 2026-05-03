@@ -28,6 +28,20 @@ header h1 {
   gap: 0.35rem;
 }
 
+.field--inline {
+  flex-direction: row;
+  align-items: flex-end;
+  padding-bottom: 0.45rem;
+}
+
+.field--inline label {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-weight: normal;
+  cursor: pointer;
+}
+
 label {
   font-weight: 600;
   font-size: 0.9rem;

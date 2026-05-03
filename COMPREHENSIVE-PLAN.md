@@ -67,6 +67,7 @@ All files must remain valid JSON.
 Each array element:
 
 - `name` (string)
+- `guest` (boolean) — `false` for permanent party members; `true` for temporary/guest characters. All existing characters shipped with `"guest": false`. The UI hides guest characters by default (§5.1).
 - `orbment` (array of objects), each with:
   - `elemental` (`string` or `null`) — lowercase element keyword (`earth`, `water`, `fire`, `wind`, `time`, `space`, `mirage`) or `null` when the slot has no elemental restriction.
   - `line` (int) — line grouping for totals; `0` and negative values follow the aggregation rules in §5.
@@ -88,7 +89,7 @@ Each array element:
 
 **Sky the 3rd (`sky-tc`) roster (current):** [`games/sky-tc/characters.json`](games/sky-tc/characters.json) lists **sixteen** playable entries with **seven** slots each. **JSON array order** is **alphabetical by `name`**: Agate Crosner, Alan Richard, Anelace Elfead, Estelle Bright, Josette Capua, Joshua Bright, Julia Schwarz, Kevin Graham, Kloe Rinz, Mueller Vander, Olivier Lenheim, Renne, Ries Argent, Scherazard Harvey, Tita Russell, Zin Vathek. **Post-seeding edits (authoritative in JSON):** **Tita Russell** matches SC’s **space** / **`null`** pattern above; **Scherazard Harvey** uses the same **`line`** pattern as SC (**0, 2, 2, 2, 2, 2, 1**); **Alan Richard**—slot **`line`** sequence **`0, 2, 2, 1, 2, 2, 2`**. All other `elemental` / `line` values per slot are only in that file.
 
-**Trails from Zero (`zero`) roster (current):** [`games/zero/characters.json`](games/zero/characters.json) lists **four** party members with **seven** slots each: **Elie MacDowell** (**wind** on slots **0** and **4**; **`line`** `0, 1, 1, 1, 1, 1, 2`), **Lloyd Bannings** (all **`null`** elementals; **`line`** `0, 1, 1, 1, 2, 2, 2`), **Randy Orlando** (**fire** slot **0**; **`line`** `0, 1, 1, 1, 2, 2, 3`), **Tio Plato** (**water** on slots **0** and **4**; **`line`** `0, 1, 1, 1, 1, 1, 1`). **JSON array order** matches the list above (**alphabetical `name`** order—§4, §6.3); full slot tables remain in the file.
+**Trails from Zero (`zero`) roster (current):** [`games/zero/characters.json`](games/zero/characters.json) lists **seven** entries with **seven** slots each. **Four core members** (`guest: false`): **Elie MacDowell** (**wind** on slots **0** and **4**; **`line`** `0, 1, 1, 1, 1, 1, 2`), **Lloyd Bannings** (all **`null`** elementals; **`line`** `0, 1, 1, 1, 2, 2, 2`), **Randy Orlando** (**fire** slot **0**; **`line`** `0, 1, 1, 1, 2, 2, 3`), **Tio Plato** (**water** on slots **0** and **4**; **`line`** `0, 1, 1, 1, 1, 1, 1`). **Three guest members** (`guest: true`): **Alex Dudley** (**time** slot **0**; **`line`** `0, 1, 1, 1, 1, 2, 2`), **Noel Seeker** (**earth** slot **0**; **`line`** `0, 1, 1, 1, 2, 3, 4`), **Yin** (**mirage** slot **0**; **`line`** `0, 1, 1, 1, 1, 2, 3`). **JSON array order** is **alphabetical by `name`** (§4, §6.3): Elie, Lloyd, Randy, Tio, then Alex Dudley, Noel Seeker, Yin. Full slot data remains in the file.
 
 ### 4.2 `quartz.json` schema
 
@@ -123,6 +124,8 @@ Files: [`index.html`](index.html), [`app.js`](app.js), [`styles.css`](styles.css
 ### 5.1 Character selector
 
 Populate from `character.name`. If `characters.json` is `[]`, disable the control or show a clear empty state.
+
+**Guest character filtering:** A **"Show guest characters"** checkbox sits beside the character `<select>`. When **unchecked** (default), only characters with `guest !== true` appear in the dropdown. When **checked**, all characters are shown. Implemented via `populateCharacterDropdown()` in [`app.js`](app.js), which filters by `showGuestCheckbox.checked` and is called from both `onGameChange` and the checkbox `change` handler. If the currently selected character becomes hidden when the checkbox is unchecked (i.e. it was a guest), the character panel is cleared. If the current selection remains visible after the checkbox changes, the panel stays open. The checkbox state is not persisted across game changes.
 
 ### 5.2 Orbment slot table (three columns)
 
@@ -325,7 +328,7 @@ flowchart LR
 - **`games/sky-fc/characters.json`:** Eight entries, six slots each, matching the roster table in §4.1.
 - **`games/sky-sc/characters.json`:** Ten entries, seven `orbment` slots each; matches §4.1 SC roster paragraph (not the FC eight-by-six table). Entries are **alphabetical by `name`** (§4, §6.3).
 - **`games/sky-tc/characters.json`:** Sixteen entries, seven slots each; §4.1 Sky the 3rd roster paragraph (alphabetical **`name`** order in JSON).
-- **`games/zero/characters.json`:** Four entries, seven slots each; §4.1 Trails from Zero roster paragraph (alphabetical **`name`** order: Elie, Lloyd, Randy, Tio).
+- **`games/zero/characters.json`:** Seven entries, seven slots each; §4.1 Trails from Zero roster paragraph. Four core members (`guest: false`) + three guest members (`guest: true`): Alex Dudley, Noel Seeker, Yin. Alphabetical **`name`** order.
 - **`games/sky-sc`** wiki rows: After §6.6, expect on the order of **73** arts and **95** quartz; spot-check SC quartz **elemental value** (what becomes `cost`) vs the wiki’s synthesis column (which JSON omits).
 - **Wiki data:** Spot-check random arts and quartz rows against the wiki (names, EP, cast/delay, sepith columns, effects).
 - **Quartz types:** After regeneration, types are dense `1..N`; tier gems share types with their stat lines (§6.4). After changing exclusivity rules in the build script, run **`python3 scripts/build_trails_wiki_data.py --reassign-quartz-types-only`** (or a full wiki rebuild) so every **`games/*/quartz.json`** picks up merged types; spot-check **`zero`** for **Poison** vs **Burn**, and **Effort** vs **Prankster** (§6.4).
@@ -357,6 +360,8 @@ This section captures **agent/session context** that does not belong in the orig
 
 8. **Colours / FC roster copy:** Space/mirage palette swap; line **`1`–`4`** tints; six FC orbments + **Zin** rename—**§5.5**, §4.1.
 
+9. **Guest character support:** Added `guest` boolean field (default `false`) to all characters across all four games (§4.1 schema). Added "Show guest characters" checkbox to the UI (§5.1); `populateCharacterDropdown()` extracted from `onGameChange` to support filtering. Added three guest characters to **`zero`**: Alex Dudley, Noel Seeker, Yin (`guest: true`)—§4.1.
+
 ### 8.2 Current wiki-backed data counts
 
 As produced by the wiki pipeline (verify anytime with `len()` on the JSON arrays). Counts below were checked against the repo’s on-disk files; re-run **`len(json.load(...))`** after regeneration if numbers drift:
@@ -383,7 +388,8 @@ Roster intent and per-title **`characters.json`** details: **§4.1** (not repeat
 | Line totals + aggregate | `distinctPositiveLines`, `computeLineSepithTotals`, `recalcLineTotals` |
 | Enabled arts | `rowMeetsElementalRequirement`, `enablingLinesForArt`, `renderEnabledArtsTable` (invoked at end of `recalcLineTotals`) |
 | Line styling | `quartzLineClass` for quartz `<td>` and line-total rows; `elementalClass` for elemental cells and quartz `<option>` classes |
-| Game load | `onGameChange` — `Promise.all` fetch to **`games/{id}/`** `characters.json`, `quartz.json`, `arts.json` (relative paths) |
+| Game load | `onGameChange` — `Promise.all` fetch to **`games/{id}/`** `characters.json`, `quartz.json`, `arts.json` (relative paths); calls `populateCharacterDropdown()` on success |
+| Guest filtering | `populateCharacterDropdown` — filters `characters` array by `showGuestCheckbox.checked`; called from `onGameChange` and the checkbox `change` handler. Checkbox `change` handler restores the previous character selection if it remains visible after filtering. |
 
 Slot `<select>` `change` handlers call `refreshAllQuartzSelects`, which rebuilds options (with **`quartz-option`** + elemental classes per option), calls **`updateQuartzEffectCells`**, then **`recalcLineTotals`** so totals and arts stay in sync.
 
@@ -434,7 +440,7 @@ Cursor stores plan markdown under `~/.cursor/plans/` (filenames include a short 
 | Data root | `games/{sky-fc,sky-sc,sky-tc,zero}/` with three JSON files each |
 | SC vs FC characters | FC: eight×six (§4.1 table). SC: ten×seven in [`games/sky-sc/characters.json`](games/sky-sc/characters.json); hand-tuned orbments—§4.1, §8.1 item 5. |
 | `sky-tc` characters | Sixteen×seven in [`games/sky-tc/characters.json`](games/sky-tc/characters.json); hand-tuned—§4.1, §8.1 item 5. |
-| `zero` characters | Four×seven in [`games/zero/characters.json`](games/zero/characters.json)—§4.1; JSON **`name`** order alphabetical (Elie → Lloyd → Randy → Tio). |
+| `zero` characters | Seven×seven in [`games/zero/characters.json`](games/zero/characters.json)—§4.1; four core (`guest: false`): Elie, Lloyd, Randy, Tio; three guests (`guest: true`): Alex Dudley, Noel Seeker, Yin. JSON **`name`** order alphabetical. |
 | UI root | `index.html`, `app.js`, `styles.css` |
 | Orbment slots table | Three columns (Elemental **200px** fixed, Quartz + Effect equal); **Effect** = selected quartz **`effect`**; option elemental classes—§5.2, §8.1 item 7 |
 | Wiki regeneration | §6.6: `curl` MediaWiki parse JSON → **`/tmp/trails_*`** caches → `python3 scripts/build_trails_wiki_data.py sky-fc` (etc.) → `games/sky-fc/…`; same pattern for **`sky-sc`**, **`sky-tc`**, and **`zero`** (see §6.6 blocks; no default game id) |

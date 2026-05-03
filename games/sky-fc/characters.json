@@ -1,6 +1,7 @@
 [
   {
     "name": "Agate Crosner",
+    "guest": false,
     "orbment": [
       {
         "elemental": "fire",
@@ -30,6 +31,7 @@
   },
   {
     "name": "Estelle Bright",
+    "guest": false,
     "orbment": [
       {
         "elemental": null,
@@ -59,6 +61,7 @@
   },
   {
     "name": "Joshua Astray",
+    "guest": false,
     "orbment": [
       {
         "elemental": "time",
@@ -88,6 +91,7 @@
   },
   {
     "name": "Kloe Rinz",
+    "guest": false,
     "orbment": [
       {
         "elemental": "water",
@@ -117,6 +121,7 @@
   },
   {
     "name": "Olivier Lenheim",
+    "guest": false,
     "orbment": [
       {
         "elemental": "mirage",
@@ -146,6 +151,7 @@
   },
   {
     "name": "Scherazard Harvey",
+    "guest": false,
     "orbment": [
       {
         "elemental": "wind",
@@ -175,6 +181,7 @@
   },
   {
     "name": "Tita Russell",
+    "guest": false,
     "orbment": [
       {
         "elemental": "space",
@@ -204,6 +211,7 @@
   },
   {
     "name": "Zin Vathek",
+    "guest": false,
     "orbment": [
       {
         "elemental": "earth",

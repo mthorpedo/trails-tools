@@ -14,6 +14,7 @@
 
   const gameSelect = document.getElementById("game");
   const characterSelect = document.getElementById("character");
+  const showGuestCheckbox = document.getElementById("show-guest");
   const panel = document.getElementById("character-panel");
   const slotsBody = document.querySelector("#orbment-slots tbody");
   const lineBody = document.querySelector("#line-totals tbody");
@@ -483,17 +484,27 @@
       return;
     }
 
+    populateCharacterDropdown();
+  }
+
+  function populateCharacterDropdown() {
+    characterSelect.innerHTML = "";
+
     const opt0 = document.createElement("option");
     opt0.value = "";
     opt0.textContent = "Select a character…";
     characterSelect.appendChild(opt0);
 
-    characters.forEach(function (c) {
+    const showGuest = showGuestCheckbox.checked;
+    characters.filter(function (c) {
+      return showGuest || !c.guest;
+    }).forEach(function (c) {
       const o = document.createElement("option");
       o.value = c.name;
       o.textContent = c.name;
       characterSelect.appendChild(o);
     });
+
     characterSelect.disabled = false;
     characterSelect.value = "";
     panel.classList.add("hidden");
@@ -502,5 +513,14 @@
   gameSelect.addEventListener("change", onGameChange);
   characterSelect.addEventListener("change", function () {
     renderCharacterUi();
+  });
+  showGuestCheckbox.addEventListener("change", function () {
+    if (characters.length === 0) return;
+    const prevValue = characterSelect.value;
+    populateCharacterDropdown();
+    if (prevValue && Array.prototype.some.call(characterSelect.options, function (o) { return o.value === prevValue; })) {
+      characterSelect.value = prevValue;
+      panel.classList.remove("hidden");
+    }
   });
 })();
