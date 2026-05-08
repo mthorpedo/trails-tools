@@ -1,5 +1,39 @@
 [
   {
+    "name": "Alex Dudley",
+    "guest": true,
+    "orbment": [
+      {
+        "elemental": "time",
+        "line": 0
+      },
+      {
+        "elemental": null,
+        "line": 1
+      },
+      {
+        "elemental": null,
+        "line": 1
+      },
+      {
+        "elemental": null,
+        "line": 1
+      },
+      {
+        "elemental": null,
+        "line": 1
+      },
+      {
+        "elemental": null,
+        "line": 2
+      },
+      {
+        "elemental": null,
+        "line": 2
+      }
+    ]
+  },
+  {
     "name": "Elie MacDowell",
     "guest": false,
     "orbment": [
@@ -26,6 +60,74 @@
       {
         "elemental": null,
         "line": 1
+      },
+      {
+        "elemental": null,
+        "line": 2
+      }
+    ]
+  },
+  {
+    "name": "Estelle Bright",
+    "guest": true,
+    "orbment": [
+      {
+        "elemental": null,
+        "line": 0
+      },
+      {
+        "elemental": null,
+        "line": 1
+      },
+      {
+        "elemental": null,
+        "line": 1
+      },
+      {
+        "elemental": null,
+        "line": 1
+      },
+      {
+        "elemental": null,
+        "line": 2
+      },
+      {
+        "elemental": null,
+        "line": 2
+      },
+      {
+        "elemental": null,
+        "line": 2
+      }
+    ]
+  },
+  {
+    "name": "Joshua Bright",
+    "guest": true,
+    "orbment": [
+      {
+        "elemental": "time",
+        "line": 0
+      },
+      {
+        "elemental": null,
+        "line": 1
+      },
+      {
+        "elemental": null,
+        "line": 1
+      },
+      {
+        "elemental": "time",
+        "line": 1
+      },
+      {
+        "elemental": null,
+        "line": 1
+      },
+      {
+        "elemental": null,
+        "line": 2
       },
       {
         "elemental": null,
@@ -64,6 +166,40 @@
       {
         "elemental": null,
         "line": 2
+      }
+    ]
+  },
+  {
+    "name": "Noel Seeker",
+    "guest": true,
+    "orbment": [
+      {
+        "elemental": "earth",
+        "line": 0
+      },
+      {
+        "elemental": null,
+        "line": 1
+      },
+      {
+        "elemental": null,
+        "line": 1
+      },
+      {
+        "elemental": null,
+        "line": 1
+      },
+      {
+        "elemental": null,
+        "line": 2
+      },
+      {
+        "elemental": null,
+        "line": 3
+      },
+      {
+        "elemental": null,
+        "line": 4
       }
     ]
   },
@@ -132,74 +268,6 @@
       {
         "elemental": null,
         "line": 1
-      }
-    ]
-  },
-  {
-    "name": "Noel Seeker",
-    "guest": true,
-    "orbment": [
-      {
-        "elemental": "earth",
-        "line": 0
-      },
-      {
-        "elemental": null,
-        "line": 1
-      },
-      {
-        "elemental": null,
-        "line": 1
-      },
-      {
-        "elemental": null,
-        "line": 1
-      },
-      {
-        "elemental": null,
-        "line": 2
-      },
-      {
-        "elemental": null,
-        "line": 3
-      },
-      {
-        "elemental": null,
-        "line": 4
-      }
-    ]
-  },
-  {
-    "name": "Alex Dudley",
-    "guest": true,
-    "orbment": [
-      {
-        "elemental": "time",
-        "line": 0
-      },
-      {
-        "elemental": null,
-        "line": 1
-      },
-      {
-        "elemental": null,
-        "line": 1
-      },
-      {
-        "elemental": null,
-        "line": 1
-      },
-      {
-        "elemental": null,
-        "line": 1
-      },
-      {
-        "elemental": null,
-        "line": 2
-      },
-      {
-        "elemental": null,
-        "line": 2
       }
     ]
   },
