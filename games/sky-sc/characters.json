@@ -34,6 +34,40 @@
     ]
   },
   {
+    "name": "Anelace Elfead",
+    "guest": true,
+    "orbment": [
+      {
+        "elemental": "wind",
+        "line": 0
+      },
+      {
+        "elemental": null,
+        "line": 1
+      },
+      {
+        "elemental": null,
+        "line": 1
+      },
+      {
+        "elemental": null,
+        "line": 2
+      },
+      {
+        "elemental": "wind",
+        "line": 3
+      },
+      {
+        "elemental": null,
+        "line": 3
+      },
+      {
+        "elemental": null,
+        "line": 4
+      }
+    ]
+  },
+  {
     "name": "Estelle Bright",
     "guest": false,
     "orbment": [
@@ -69,7 +103,7 @@
   },
   {
     "name": "Josette Capua",
-    "guest": false,
+    "guest": true,
     "orbment": [
       {
         "elemental": "earth",
@@ -103,7 +137,7 @@
   },
   {
     "name": "Joshua Bright",
-    "guest": false,
+    "guest": true,
     "orbment": [
       {
         "elemental": "time",
@@ -136,8 +170,42 @@
     ]
   },
   {
+    "name": "Julia Schwarz",
+    "guest": true,
+    "orbment": [
+      {
+        "elemental": "space",
+        "line": 0
+      },
+      {
+        "elemental": null,
+        "line": 1
+      },
+      {
+        "elemental": null,
+        "line": 1
+      },
+      {
+        "elemental": "space",
+        "line": 2
+      },
+      {
+        "elemental": null,
+        "line": 2
+      },
+      {
+        "elemental": null,
+        "line": 2
+      },
+      {
+        "elemental": null,
+        "line": 2
+      }
+    ]
+  },
+  {
     "name": "Kevin Graham",
-    "guest": false,
+    "guest": true,
     "orbment": [
       {
         "elemental": "time",
@@ -200,6 +268,74 @@
       {
         "elemental": null,
         "line": 1
+      }
+    ]
+  },
+  {
+    "name": "Kurt Nardin",
+    "guest": true,
+    "orbment": [
+      {
+        "elemental": "mirage",
+        "line": 0
+      },
+      {
+        "elemental": null,
+        "line": 1
+      },
+      {
+        "elemental": null,
+        "line": 2
+      },
+      {
+        "elemental": null,
+        "line": 2
+      },
+      {
+        "elemental": null,
+        "line": 2
+      },
+      {
+        "elemental": null,
+        "line": 2
+      },
+      {
+        "elemental": null,
+        "line": 1
+      }
+    ]
+  },
+  {
+    "name": "Mueller Vander",
+    "guest": true,
+    "orbment": [
+      {
+        "elemental": "water",
+        "line": 0
+      },
+      {
+        "elemental": null,
+        "line": 1
+      },
+      {
+        "elemental": null,
+        "line": 1
+      },
+      {
+        "elemental": null,
+        "line": 2
+      },
+      {
+        "elemental": null,
+        "line": 3
+      },
+      {
+        "elemental": null,
+        "line": 3
+      },
+      {
+        "elemental": null,
+        "line": 4
       }
     ]
   },
