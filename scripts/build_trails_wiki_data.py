@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
-"""Parse wiki HTML (MediaWiki JSON) -> games/{sky-fc|sky-sc|sky-tc|zero}/arts.json and quartz.json.
+"""Parse cached wiki HTML into games/{id}/arts.json and quartz.json.
 
-Wiki import requires a game id (no default). Sky trilogy: sky-fc (Sky FC), sky-sc (Sky SC), sky-tc (Sky the 3rd); Crossbell: zero.
+Wiki import requires a configured game id. Use --resort-json-only or
+--reassign-quartz-types-only to maintain every game directory without a wiki fetch.
 
 Prerequisite: curl MediaWiki parse JSON to /tmp (see GAME_INPUTS) then run:
   python3 scripts/build_trails_wiki_data.py sky-fc
@@ -9,7 +10,7 @@ Prerequisite: curl MediaWiki parse JSON to /tmp (see GAME_INPUTS) then run:
   python3 scripts/build_trails_wiki_data.py sky-tc
   python3 scripts/build_trails_wiki_data.py zero
 
-Re-sort existing games/*/ JSON without wiki (characters alphabetical; arts/quartz orders per COMPREHENSIVE-PLAN §6.3):
+Re-sort existing games/*/ JSON without wiki (characters alphabetical; arts/quartz use canonical order):
   python3 scripts/build_trails_wiki_data.py --resort-json-only
 
 Recompute quartz `type` fields from names only (no wiki; same rules as a fresh import):
@@ -454,6 +455,14 @@ def resort_existing_game_json(root: Path, game: str) -> None:
             )
 
 
+def game_directories(root: Path) -> list[str]:
+    """Return game ids represented by directories under games/."""
+    games_root = root / "games"
+    if not games_root.exists():
+        return []
+    return sorted(path.name for path in games_root.iterdir() if path.is_dir())
+
+
 GAME_INPUTS = {
     "sky-fc": (
         Path("/tmp/trails_fc_arts.json"),
@@ -479,7 +488,7 @@ def main():
     parser.add_argument(
         "--resort-json-only",
         action="store_true",
-        help="Sort arts, quartz, and characters under games/{sky-fc,sky-sc,sky-tc,zero}/ (no wiki fetch).",
+        help="Sort arts, quartz, and characters in every games/*/ directory (no wiki fetch).",
     )
     parser.add_argument(
         "--reassign-quartz-types-only",
@@ -491,7 +500,7 @@ def main():
         nargs="?",
         choices=sorted(GAME_INPUTS.keys()),
         metavar="GAME",
-        help="Game id for wiki import: sky-fc, sky-sc, sky-tc, or zero (required unless using a --*-only flag).",
+        help="Configured game id for wiki import (required unless using a --*-only flag).",
     )
     args = parser.parse_args()
     root = Path(__file__).resolve().parents[1]
@@ -501,18 +510,18 @@ def main():
     else:
         if args.game is None:
             parser.error(
-                "GAME is required: sky-fc | sky-sc | sky-tc | zero "
+                "GAME is required; choose a configured id "
                 "(e.g. python3 scripts/build_trails_wiki_data.py sky-fc)"
             )
 
     if args.resort_json_only:
-        for gid in sorted(GAME_INPUTS.keys()):
+        for gid in game_directories(root):
             resort_existing_game_json(root, gid)
             print("resorted", gid)
         return
 
     if args.reassign_quartz_types_only:
-        for gid in sorted(GAME_INPUTS.keys()):
+        for gid in game_directories(root):
             qp = root / "games" / gid / "quartz.json"
             if not qp.exists():
                 continue
@@ -532,7 +541,7 @@ def main():
     arts_path, quartz_path = GAME_INPUTS[game]
     if not arts_path.exists() or not quartz_path.exists():
         print(
-            f"Missing cached wiki JSON for {game}:\n  {arts_path}\n  {quartz_path}\nRun curl first (see COMPREHENSIVE-PLAN.md).",
+            f"Missing cached wiki JSON for {game}:\n  {arts_path}\n  {quartz_path}\nFetch the configured MediaWiki parse responses first.",
             file=sys.stderr,
         )
         sys.exit(1)
