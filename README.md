@@ -20,7 +20,7 @@ Choose a **game** and **character**. Assign quartz to slots, inspect **line sepi
 - **`--resort-json-only`** — Re-sort `arts.json`, `quartz.json`, and `characters.json` under each `games/*/` without fetching the wiki.
 - **`--reassign-quartz-types-only`** — Recompute quartz **`type`** ids from the script’s rules for every `games/*/quartz.json`.
 
-**Dependencies:** Python 3 and **BeautifulSoup** (the script prepends [`.build_deps/`](.build_deps/) to `sys.path`). Project-local Agent skills under [`.agent/skills/`](.agent/skills/) contain maintenance workflows and source-mapping guidance.
+**Dependencies:** Python 3 and **BeautifulSoup** (the script prepends [`.build_deps/`](.build_deps/) to `sys.path`). Project-local Agent skills under [`.agents/skills/`](.agents/skills/) contain maintenance workflows and source-mapping guidance.
 
 ## Contributing
 
